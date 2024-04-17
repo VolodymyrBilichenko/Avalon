@@ -192,13 +192,7 @@ button {
   font-family: Montserrat,sans-serif
 }
 :root {
-  --container: 1280px;
-  --black: #363636;
-  --blue: #2980B9;
-  --blue-opacity: rgba(203, 234, 255, 0.88);
-  --white: #FFF;
-  --white-opacity: rgba(255, 255, 255, 0.88);
-  --border: #E0E0E0
+  --container: 1280px
 }
 body {
   margin: 0;
