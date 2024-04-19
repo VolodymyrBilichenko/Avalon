@@ -1,19 +1,46 @@
 @@include('blocks/header.html')
 
-<section class="bg-blue-500 h-screen">
+<section class="bg-blue-500 pb-24">
     <div class="container mx-auto">
-        <h1 class="text-6xl text-white font-normalidad font-bold mb-12">Новости</h1>
-        <div class="flex justify-between items-start">
-            <p class="text-white text-lg">Ваше будущее жилье — в наших руках. Мы понимаем, как важны для вас шаги.</p>
-            <div class="flex">
+        <h1 class="md:text-5xl lg:text-6xl text-3xl text-white font-normalidad font-bold mb-5">Новости</h1>
+        <div class="flex justify-between items-center">
+            <p class="md:text-lg text-white text-sm">Ваше будущее жилье — в наших руках. Мы понимаем, как важны для вас шаги.</p>
+            <div class="md:flex hidden">
                 <ul class="flex py-6 gap-10">
-                    <li class="text-white opacity-50">Все</li>
-                    <li class="text-white opacity-50">OM Club House</li>
-                    <li class="text-white opacity-50">JUST Club House</li>
-                    <li class="text-white opacity-50">BUDDHA | Club House</li>
+                    <li class="text-white opacity-100">
+                        <a href="#">
+                            Все
+                        </a>
+                    </li>
+                    <li class="text-white opacity-50 hover:opacity-75 transition-all duration-300">
+                        <a href="#">
+                            OM Club House
+                        </a>
+                    </li>
+                    <li class="text-white opacity-50 hover:opacity-75 transition-all duration-300">
+                        <a href="#">
+                            JUST Club House
+                        </a>
+                    </li>
+                    <li class="text-white opacity-50 hover:opacity-75 transition-all duration-300">
+                        <a href="#">
+                            BUDDHA | Club House
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
+        <div class="md:grid-cols-2 lg:grid-cols-3 grid grid-cols-1 gap-x-5 gap-y-10 mt-12">
+            @@include('blocks/news/newsItem.html')
+            @@include('blocks/news/newsItem.html')
+            @@include('blocks/news/newsItem.html')
+            @@include('blocks/news/newsItem.html')
+            @@include('blocks/news/newsItem.html')
+            @@include('blocks/news/newsItem.html')
+        </div>
+        <button class="text-white h-[60px] rounded-[10px] border-white border-[1px] px-7 mx-auto block mt-12">
+            Показать больше
+        </button>
     </div>
 </section>
 
