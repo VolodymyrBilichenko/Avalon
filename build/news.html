@@ -44,6 +44,7 @@
 						blue: {
 							'400': '#0E88EC',
 							'500': '#0A4A7F',
+							'600': '#002D52',
 						}
 					}
 				},
@@ -60,17 +61,17 @@
 	</header>
 
 <section class="pb-24 relative bg-blue-500 overflow-hidden">
-    <div class="bg-gradient-to-t from-blue-500 from-90% lg:from-80%  w-full h-full absolute z-10"></div>
+    <div class="bg-gradient-to-t from-blue-500 from-80% lg:from-80%  w-full h-full absolute z-10"></div>
 
-    <img class="absolute top-0 z-0 opacity-40 w-[200vw] max-w-max md:w-full" src="./../img/news/news-bgd.jpg"
+    <img class="absolute top-0 z-0 opacity-40 w-[600vw] max-w-max md:w-full" src="./../img/news/news-bgd.jpg"
         alt="Image">
 
-    <div class="container mx-auto relative z-10 pt-32 md:pt-64">
+    <div class="container mx-auto relative z-20 pt-32 md:pt-64">
         <h1 class="md:text-5xl lg:text-6xl text-3xl text-white font-normalidad font-bold mb-5">Новости</h1>
         <div class="md:flex justify-between items-center">
             <p class="md:text-lg text-white text-sm">Ваше будущее жилье — в наших руках. Мы понимаем, как важны для вас
                 шаги.</p>
-            <div class="select group relative flex md:hidden border-white/40 border-[1px] rounded-[10px] mt-7">
+            <div class="select group relative z-40 flex md:hidden border-white/40 border-[1px] rounded-[10px] mt-7">
                 <div class="select__head flex items-center justify-between w-full h-12 px-4">
                     <span class="text-sm text-white font-bold">OM Club House</span>
                     <img src="./../img/icons/arrow-white-down.svg" alt="Arrow" class="w-4 transition-all group-[.active]:-scale-y-100 scale-y-100">
@@ -84,13 +85,6 @@
                     </button>
                 </div>
             </div>
-
-            <script>
-                document.querySelector('.select__head').onclick = (e) => {
-                    console.log(document.querySelector('.select'));
-                    document.querySelector('.select').classList.toggle('active')
-                }
-            </script>
             <div class="md:flex hidden">
                 <ul class="flex py-6 gap-10">
                     <li class="text-white opacity-100">
@@ -184,7 +178,7 @@
     </p>
 </a>
         </div>
-        <button class="text-white h-[60px] rounded-[10px] border-white border-[1px] px-7 mx-auto block mt-12">
+        <button class="text-white h-[60px] rounded-[10px] border-white border-[1px] cursor-pointer px-7 mx-auto block mt-12">
             Показать больше
         </button>
     </div>
