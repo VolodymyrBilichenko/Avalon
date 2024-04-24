@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Avalon</title>
+
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="../fonts/grandis/stylesheet.css">
+
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					fontFamily: {
+						normalidad: ['Grandis Extended', 'sans-serif'],
+					},
+					transitionDuration: {
+						'DEFAULT': '300ms',
+					},
+					container: {
+						center: true,
+						padding: "30px",
+						screens: {
+							'sm': 'none',
+							'md': 'none',
+							'lg': 'none',
+							'xl': 'none',
+							'2xl': '1560px',
+						},
+						maxWidth: {
+							'none': 'none',
+							'sm': 'none',
+							'md': 'none',
+							'lg': 'none',
+							'xl': 'none',
+							'2xl': 'none',
+						}
+					},
+					colors: {
+						blue: {
+							'400': '#0E88EC',
+							'500': '#0A4A7F',
+							'600': '#002D52',
+						}
+					}
+				},
+			},
+		}
+	</script>
+
+</head>
+
+<body>
+	
+	<header>
+		HEADER
+	</header>
+
+<section class="bg-blue-500 pt-64">
+    <div class="container">
+        <div class="pb-14">
+            <div
+                class="flex before:w-[6px] before:rounded-sm before:h-[6px] before:bg-white before:mr-[10px] opacity-60 items-center">
+                <span class="text-white text-sm">5 апреля 2024</span>
+            </div>
+            <h1 class="text-white text-[30px] font-bold break-words mt-4 leading-9">
+                Программы «еОселя» и «еВосстановление» заработали для LUCKY LAND
+            </h1>
+            <a href="#" class="rounded-full border-[1px] border-white w-10 h-10 flex items-center justify-center mt-8 mb-14">
+                <img src="./../img/icons/socials.svg" alt="Soc">
+            </a>
+            <b class="text-white text-base mb-2 block">
+                Квартиры в эко-городе LUCKY LAND от строительной компании DIM теперь можно приобрести по государственным
+                программам доступного кредитования жилья «еОселя» и компенсации за разрушенное или поврежденное жилье
+                «еВосстановление».
+            </b>
+            <p class="text-white text-base my-2">
+                Дополнительные опции приобретения жилья в LUCKY LAND открылись благодаря тому, что дом №3 эко-города
+                недавно получил официальный адрес.
+            </p>
+            <blockquote class="text-white text-base mt-7">
+                <div
+                    class="before:h-[1px] before:w-10 before:bg-blue-400 before:mr-3 before:block after:h-[1px] after:w-10 after:bg-blue-400 after:ml-3 after:block flex items-center mb-4">
+                    <img src="./../img/icons/quotes.svg" alt="Quotes">
+                </div>
+                «Сегодня мы получаем все больше запросов на покупку недвижимости по государственным программам. Поэтому
+                как только наши проекты получают все необходимые разрешительные документы, мы присоединяемся к таким
+                программам. Для нас важно реализовать все возможности, которые сделают для украинцев покупку жилья более
+                комфортной», — комментирует управляющий партнер группы компаний DIM Александр Насиковский.
+            </blockquote>
+            <p class="text-white text-base my-2">
+                Программа «еОселя» – это государственная инициатива для поддержки населения, желающего приобрести
+                собственное жилье. Она дает желающим возможность получить ипотеку от государства с фиксированной ставкой
+                от 3 до 7% сроком до 20 лет.
+            </p>
+            <p class="text-white text-base my-2">
+                Программа «еВосстановление» — государственная программа помощи владельцам разрушенного или поврежденного
+                в результате войны жилья, позволяющая получить компенсацию в зависимости от уровня ущерба.
+            </p>
+            <p class="text-white text-base mt-8">
+                Узнать больше об условиях приобретения квартиры в LUCKY LAND по одной из программ можно в отделе продаж
+                по ул. Берковецкой, 4Д.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="bg-blue-600 pt-14 pb-24">
+    <div class="container">
+        <div class="">
+            <h2 class="text-white mb-8 font-bold text-[30px]">
+                Другие новости
+            </h2>
+
+            <div class="swiper else-news">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="newsSingle.html" class="w-full h-full group">
+    <div class="mb-5 w-full h-[300]">
+        <img class="rounded-[20px] w-full h-full object-cover" src="./../../../img/news/cardImage.jpg" alt="">
+    </div>
+    <span class="mb-3 md:mb-4 flex items-center text-white text-sm opacity-60 before:w-[6px] before:h-[6px] before:block before:bg-white before:rounded-sm before:mr-2">
+        1 июня 2023
+    </span>
+    <p class="text-base md:text-lg group-hover:text-blue-400 group-hover:underline text-white font-bold">
+        СТАРТ ПРОДАЖ клубного дома <br>на 7 видовых квартир
+    </p>
+</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="newsSingle.html" class="w-full h-full group">
+    <div class="mb-5 w-full h-[300]">
+        <img class="rounded-[20px] w-full h-full object-cover" src="./../../../img/news/cardImage.jpg" alt="">
+    </div>
+    <span class="mb-3 md:mb-4 flex items-center text-white text-sm opacity-60 before:w-[6px] before:h-[6px] before:block before:bg-white before:rounded-sm before:mr-2">
+        1 июня 2023
+    </span>
+    <p class="text-base md:text-lg group-hover:text-blue-400 group-hover:underline text-white font-bold">
+        СТАРТ ПРОДАЖ клубного дома <br>на 7 видовых квартир
+    </p>
+</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="newsSingle.html" class="w-full h-full group">
+    <div class="mb-5 w-full h-[300]">
+        <img class="rounded-[20px] w-full h-full object-cover" src="./../../../img/news/cardImage.jpg" alt="">
+    </div>
+    <span class="mb-3 md:mb-4 flex items-center text-white text-sm opacity-60 before:w-[6px] before:h-[6px] before:block before:bg-white before:rounded-sm before:mr-2">
+        1 июня 2023
+    </span>
+    <p class="text-base md:text-lg group-hover:text-blue-400 group-hover:underline text-white font-bold">
+        СТАРТ ПРОДАЖ клубного дома <br>на 7 видовых квартир
+    </p>
+</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="newsSingle.html" class="w-full h-full group">
+    <div class="mb-5 w-full h-[300]">
+        <img class="rounded-[20px] w-full h-full object-cover" src="./../../../img/news/cardImage.jpg" alt="">
+    </div>
+    <span class="mb-3 md:mb-4 flex items-center text-white text-sm opacity-60 before:w-[6px] before:h-[6px] before:block before:bg-white before:rounded-sm before:mr-2">
+        1 июня 2023
+    </span>
+    <p class="text-base md:text-lg group-hover:text-blue-400 group-hover:underline text-white font-bold">
+        СТАРТ ПРОДАЖ клубного дома <br>на 7 видовых квартир
+    </p>
+</a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="mt-a">
+	<div class="container">
+		<h2>FOOTER</h2>
+	</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./../../js/index.js"></script>
+</body>
+
+</html>

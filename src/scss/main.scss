@@ -13,3 +13,31 @@
 * {
     font-family: 'Grandis Extended';
 }
+
+.swiper-pagination-bullet {
+    background: #fff !important;
+    opacity: 0.5 !important;
+    width: 6px !important;
+    height: 6px !important;
+    transition: all .5s .1s ease;
+    margin: 0 7px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: transparent !important;
+    width: 14px !important;
+    height: 14px !important;
+    border: 2px solid #fff !important;
+    opacity: 1 !important;
+    transition: all .1s ease;
+}
+
+.swiper-wrapper {
+    padding-bottom: 40px;
+}
+.swiper-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
