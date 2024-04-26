@@ -13,6 +13,11 @@ const swiper = new Swiper('.swiper.else-news', {
         768: {
             slidesPerView: 3,
             spaceBetween: 20,
+            pagination: false,
+            navigation: {
+                nextEl: '.button-next',
+                prevEl: '.button-prev',
+            },
         }
     }
 });
