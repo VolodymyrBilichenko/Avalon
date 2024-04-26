@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-    .btn-primary {
-        @apply py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
+    .blockquote-lines {
+        @apply md:absolute md:left-0 md:before:w-[1px] md:before:h-10 before:h-[1px] before:w-10 before:bg-blue-400 before:mr-3 before:block md:after:h-10 md:after:w-[1px] after:h-[1px] after:w-10 after:bg-blue-400 after:ml-3 md:after:ml-0 md:before:mb-3 md:after:mt-3 md:before:mr-0 after:block flex md:flex-col items-center mb-4;
     }
 }
