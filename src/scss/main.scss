@@ -1,14 +1,6 @@
-// /* Base */
-// @import "./base/reset";
-// @import "./base/vars";
-// @import "./base/base";
-// @import "./base/utils";
-// @import "./base/containers";
-// @import "./base/sticky-footer";
+@import "./../fonts/grandis/stylesheet.css";
+@import "./blocks/*.scss";
 
-// /* Blocks */
-// @import "./blocks/*.scss";
-@import "./fonts/grandis/stylesheet.css";
 
 * {
     font-family: 'Grandis Extended';
@@ -35,6 +27,7 @@
 .swiper-wrapper {
     padding-bottom: 40px;
 }
+
 .swiper-pagination {
     display: flex;
     align-items: center;
