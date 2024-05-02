@@ -8,6 +8,7 @@
 	<title>Avalon</title>
 
 	<link rel="stylesheet" href="./css/main.css">
+	<!-- <link rel="stylesheet" href="./files/swiper/swiper.min.css" /> -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 </head>
@@ -24,7 +25,7 @@
 		</div>
 	</header>
 
-<section class="bg-blue-500 pt-64 relative overflow-hidden">
+<section class="bg-blue-500 pt-32 md:pt-64 relative overflow-hidden">
     <div class="bg-[url('/img/news/bgd-single.jpg')] absolute top-0 left-0 w-full h-screen z-0 opacity-70">
         <div class="bg-gradient-to-t from-blue-500 absolute top-0 left-0 w-full h-full"></div>
     </div>
@@ -35,20 +36,18 @@
 
         <div class="pb-14">
 
-            <div
-                class="flex before:w-[6px] before:rounded-sm before:h-[6px] before:bg-white before:mr-[10px] opacity-60 items-center">
-                <span class="text-white text-sm">5 апреля 2024</span>
+            <div class="flex before:rounded-sm items-center">
+                <span
+                class="md:px-5 py-2 px-4 bg-[url('./../img/icons/bgd-blue-dor-rd.svg')] bg-no-repeat bg-right-bottom h-fit rounded-tl-xl rounded-bl-xl rounded-tr-xl overflow-hidden text-xs md:text-sm text-white">
+                    Действует до 30 марта 2024
+                </span>
             </div>
             <h1
-                class="btn-primary text-white text-[30px] font-bold break-words mt-4 leading-9 md:leading-tight md:max-w-[876px] md:text-[65px]">
+                class="btn-primary mb-14 text-white text-[30px] font-bold break-words mt-4 leading-9 md:leading-tight md:max-w-[876px] md:text-[65px]">
                 Живите лучше на Подоле в клубном доме OLEGIV Podil
             </h1>
-            <a href="#"
-                class="rounded-full border-[1px] border-white w-10 h-10 flex items-center justify-center mt-8 mb-14 md:w-14 md:h-14">
-                <img src="./../img/icons/socials.svg" class="md:w-6" alt="Soc">
-            </a>
 
-            <div class="flex justify-between w-full">
+            <div class="md:flex justify-between w-full">
 
                 <div class="max-w-[900px] block w-full">
 
@@ -101,38 +100,40 @@
 
                 </div>
 
-                <div class="max-w-[508px]">
-                    <p class="text-xl text-white opacity-40 mb-7">Проекты участвующие в акции</p>
+                <div class="max-w-[508px] mt-14 md:mt-0">
+                    <p class="text-base md:text-xl text-white opacity-40 mb-4 md:mb-7">Проекты участвующие в акции</p>
 
-                    <div class=" h-[600px] relative rounded-3xl overflow-hidden bg-[#111111]">
+                    <div class="h-[500px] md:h-[600px] relative rounded-3xl overflow-hidden bg-[#111111] rounded-br-none">
                         <img src="./../img/discounts/image.jpg" class="opacity-50" alt="">
                         <div class="bg-gradient-to-t from-blue-600 absolute bottom-0 left-0 w-full h-3/4"></div>
 
-                        <div class="absolute top-0 left-0 w-full h-full p-7 flex flex-col">
+                        <div class="absolute top-0 left-0 w-full h-full p-5 md:p-7 flex flex-col">
+                            <div class="block-bottom-point"></div>
+
                             <div class="flex justify-between mb-auto">
                                 <img class="w-[90px]" src="./../img/icons/icon-club.svg" alt="">
                                 <span
-                                    class="py-2 px-5 bg-[url('./../img/icons/bgd-blue-dor-rd.svg')] bg-no-repeat bg-right-bottom h-fit rounded-tl-xl rounded-bl-xl rounded-tr-xl overflow-hidden text-sm text-white">
+                                    class="md:px-5 py-2 px-4 bg-[url('./../img/icons/bgd-blue-dor-rd.svg')] bg-no-repeat bg-right-bottom h-fit rounded-tl-xl rounded-bl-xl rounded-tr-xl overflow-hidden text-xs md:text-sm text-white">
                                     80% Продано
                                 </span>
                             </div>
                             <div class="max-w-96">
-                                <h2 class="text-white text-3xl mb-7">
+                                <h2 class="text-white font-bold text-2xl md:text-3xl mb-5 md:mb-7">
                                     OM | Club House
                                 </h2>
-                                <p class="text-white text-sm mb-7">
+                                <p class="text-white text-xs md:text-sm mb-5 md:mb-7">
                                     Премиум апартаменты в современном клубном доме. Погрузитесь в уникальную атмосферу
                                     роскоши и
                                     уюта в центре Чангу.
                                 </p>
-                                <div class="flex items-center mb-7">
-                                    <strong class="text-2xl text-white mr-[6px]">от $120 000</strong>
-                                    <span class="text-white/60 text-[12px]">*включая налоги</span>
+                                <div class="flex items-center mb-5 md:mb-7">
+                                    <strong class="text-xl md:text-2xl text-white mr-[6px]">от $120 000</strong>
+                                    <span class="text-white/60 text-[12px] hidden md:block">*включая налоги</span>
                                 </div>
 
                                 <div class="flex">
                                     <button
-                                        class="border-white border-[1px] py-4 px-7 rounded-[10px] text-white font-bold text-base mr-7">
+                                        class="hover:bg-white hover:text-blue-400 transition-all border-white border-[1px] py-4 px-7 rounded-[10px] text-white font-bold text-sm md:text-base mr-7">
                                         Подробнее
                                     </button>
                                     <div class="flex items-center">
@@ -157,7 +158,7 @@
         <div class="">
             <div class="flex justify-between items-center mb-8">
                 <h2 class="text-white font-bold text-[30px]">
-                    Другие новости
+                    Другие акции
                 </h2>
 
                 <div class="w-fit opacity-20 hidden md:flex">
@@ -181,71 +182,89 @@
             <div class="swiper else-news">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="newsSingle.html" class="w-full h-full group">
-                            <div
-                                class="mb-5 w-full h-[300] relative before:absolute before:rounded-tl-xl before:bottom-0 before:right-0 before:w-7 before:h-7 before:bg-blue-600 after:bg-blue-500 after:absolute after:w-4 after:h-4 after:rounded-md after:border-13 after:bottom-0 after:right-0 after:z-10">
-                                <img class="rounded-[20px] w-full h-full object-cover"
-                                    src="./../../../img/news/cardImage.jpg" alt="">
+                        <a href="discountsSingle.html" class="group relative rounded-2xl overflow-hidden">
+                            <div class="block-bottom-point z-20 border-blue-600 bg-blue-600 after:bg-blue-500"></div>
+                            <img src="./../../../img/news/cardImage.jpg" alt="Image" class="z-0 relative rounded-2xl">
+                            <div class="bg-gradient-to-t from-blue-600/80 rounded-2xl transition-all group-hover:from-blue-400 from-20% absolute top-0 left-0 w-full h-full z-10 opacity-90"></div>
+                            <div class="absolute z-20 w-full h-full top-0 left-0 p-5 flex flex-col">
+                                <div
+                                    class="bg-[url('./../../../img/icons/bgd-blue-dor-rd.svg')] px-3 py-2 bg-no-repeat bg-cover bg-right-bottom rounded-l-lg rounded-tr-lg text-xs text-white ml-auto w-fit block md:text-sm md:p-3">
+                                    Действует до <strong>30 марта 2024</strong>
+                                </div>
+                                <strong class="mt-auto text-white mb-2 md:text-lg group-hover:underline">
+                                    Курс 36,6 грн/$ <br>на первый взнос
+                                </strong>
+                                <div class="flex items-center opacity-60">
+                                    <img class="w-2 md:w-3" src="./../../../img/icons/point-white.svg" alt="">
+                                    <span class="text-white ml-1 text-xs md:text-sm">Bukit</span>
+                                </div>
                             </div>
-                            <span
-                                class="mb-3 md:mb-4 flex items-center text-white text-sm opacity-60 before:w-[6px] before:h-[6px] before:block before:bg-white before:rounded-sm before:mr-2">
-                                1 июня 2023
-                            </span>
-                            <p
-                                class="text-base md:text-lg group-hover:text-blue-400 group-hover:underline text-white font-bold">
-                                СТАРТ ПРОДАЖ клубного дома <br>на 7 видовых квартир
-                            </p>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="newsSingle.html" class="w-full h-full group">
+                        <a href="discountsSingle.html" class="group relative rounded-2xl overflow-hidden">
+                            <div class="block-bottom-point z-20 border-blue-600 bg-blue-600 after:bg-blue-500"></div>
+                            <img src="./../../../img/news/cardImage.jpg" alt="Image" class="z-0 relative rounded-2xl">
                             <div
-                                class="mb-5 w-full h-[300] relative before:absolute before:rounded-tl-xl before:bottom-0 before:right-0 before:w-7 before:h-7 before:bg-blue-600 after:bg-blue-500 after:absolute after:w-4 after:h-4 after:rounded-md after:border-13 after:bottom-0 after:right-0 after:z-10">
-                                <img class="rounded-[20px] w-full h-full object-cover"
-                                    src="./../../../img/news/cardImage.jpg" alt="">
+                                class="bg-gradient-to-t from-blue-600 rounded-2xl transition-all group-hover:from-blue-400 from-20% absolute top-0 left-0 w-full h-full z-10 opacity-90">
                             </div>
-                            <span
-                                class="mb-3 md:mb-4 flex items-center text-white text-sm opacity-60 before:w-[6px] before:h-[6px] before:block before:bg-white before:rounded-sm before:mr-2">
-                                1 июня 2023
-                            </span>
-                            <p
-                                class="text-base md:text-lg group-hover:text-blue-400 group-hover:underline text-white font-bold">
-                                СТАРТ ПРОДАЖ клубного дома <br>на 7 видовых квартир
-                            </p>
+                            <div class="absolute z-20 w-full h-full top-0 left-0 p-5 flex flex-col">
+                                <div
+                                    class="bg-[url('./../../../img/icons/bgd-blue-dor-rd.svg')] px-3 py-2 bg-no-repeat bg-cover bg-right-bottom rounded-l-lg rounded-tr-lg text-xs text-white ml-auto w-fit block md:text-sm md:p-3">
+                                    Действует до <strong>30 марта 2024</strong>
+                                </div>
+                                <strong class="mt-auto text-white mb-2 md:text-lg group-hover:underline">
+                                    Курс 36,6 грн/$ <br>на первый взнос
+                                </strong>
+                                <div class="flex items-center opacity-60">
+                                    <img class="w-2 md:w-3" src="./../../../img/icons/point-white.svg" alt="">
+                                    <span class="text-white ml-1 text-xs md:text-sm">Bukit</span>
+                                </div>
+                            </div>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="newsSingle.html" class="w-full h-full group">
+                        <a href="discountsSingle.html" class="group relative rounded-2xl overflow-hidden">
+                            <div class="block-bottom-point z-20 border-blue-600 bg-blue-600 after:bg-blue-500"></div>
+                            <img src="./../../../img/news/cardImage.jpg" alt="Image" class="z-0 relative rounded-2xl">
                             <div
-                                class="mb-5 w-full h-[300] relative before:absolute before:rounded-tl-xl before:bottom-0 before:right-0 before:w-7 before:h-7 before:bg-blue-600 after:bg-blue-500 after:absolute after:w-4 after:h-4 after:rounded-md after:border-13 after:bottom-0 after:right-0 after:z-10">
-                                <img class="rounded-[20px] w-full h-full object-cover"
-                                    src="./../../../img/news/cardImage.jpg" alt="">
+                                class="bg-gradient-to-t from-blue-600 rounded-2xl transition-all group-hover:from-blue-400 from-20% absolute top-0 left-0 w-full h-full z-10 opacity-90">
                             </div>
-                            <span
-                                class="mb-3 md:mb-4 flex items-center text-white text-sm opacity-60 before:w-[6px] before:h-[6px] before:block before:bg-white before:rounded-sm before:mr-2">
-                                1 июня 2023
-                            </span>
-                            <p
-                                class="text-base md:text-lg group-hover:text-blue-400 group-hover:underline text-white font-bold">
-                                СТАРТ ПРОДАЖ клубного дома <br>на 7 видовых квартир
-                            </p>
+                            <div class="absolute z-20 w-full h-full top-0 left-0 p-5 flex flex-col">
+                                <div
+                                    class="bg-[url('./../../../img/icons/bgd-blue-dor-rd.svg')] px-3 py-2 bg-no-repeat bg-cover bg-right-bottom rounded-l-lg rounded-tr-lg text-xs text-white ml-auto w-fit block md:text-sm md:p-3">
+                                    Действует до <strong>30 марта 2024</strong>
+                                </div>
+                                <strong class="mt-auto text-white mb-2 md:text-lg group-hover:underline">
+                                    Курс 36,6 грн/$ <br>на первый взнос
+                                </strong>
+                                <div class="flex items-center opacity-60">
+                                    <img class="w-2 md:w-3" src="./../../../img/icons/point-white.svg" alt="">
+                                    <span class="text-white ml-1 text-xs md:text-sm">Bukit</span>
+                                </div>
+                            </div>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="newsSingle.html" class="w-full h-full group">
+                        <a href="discountsSingle.html" class="group relative rounded-2xl overflow-hidden">
+                            <div class="block-bottom-point z-20 border-blue-600 bg-blue-600 after:bg-blue-500"></div>
+                            <img src="./../../../img/news/cardImage.jpg" alt="Image" class="z-0 relative rounded-2xl">
                             <div
-                                class="mb-5 w-full h-[300] relative before:absolute before:rounded-tl-xl before:bottom-0 before:right-0 before:w-7 before:h-7 before:bg-blue-600 after:bg-blue-500 after:absolute after:w-4 after:h-4 after:rounded-md after:border-13 after:bottom-0 after:right-0 after:z-10">
-                                <img class="rounded-[20px] w-full h-full object-cover"
-                                    src="./../../../img/news/cardImage.jpg" alt="">
+                                class="bg-gradient-to-t from-blue-600 rounded-2xl transition-all group-hover:from-blue-400 from-20% absolute top-0 left-0 w-full h-full z-10 opacity-90">
                             </div>
-                            <span
-                                class="mb-3 md:mb-4 flex items-center text-white text-sm opacity-60 before:w-[6px] before:h-[6px] before:block before:bg-white before:rounded-sm before:mr-2">
-                                1 июня 2023
-                            </span>
-                            <p
-                                class="text-base md:text-lg group-hover:text-blue-400 group-hover:underline text-white font-bold">
-                                СТАРТ ПРОДАЖ клубного дома <br>на 7 видовых квартир
-                            </p>
+                            <div class="absolute z-20 w-full h-full top-0 left-0 p-5 flex flex-col">
+                                <div
+                                    class="bg-[url('./../../../img/icons/bgd-blue-dor-rd.svg')] px-3 py-2 bg-no-repeat bg-cover bg-right-bottom rounded-l-lg rounded-tr-lg text-xs text-white ml-auto w-fit block md:text-sm md:p-3">
+                                    Действует до <strong>30 марта 2024</strong>
+                                </div>
+                                <strong class="mt-auto text-white mb-2 md:text-lg group-hover:underline">
+                                    Курс 36,6 грн/$ <br>на первый взнос
+                                </strong>
+                                <div class="flex items-center opacity-60">
+                                    <img class="w-2 md:w-3" src="./../../../img/icons/point-white.svg" alt="">
+                                    <span class="text-white ml-1 text-xs md:text-sm">Bukit</span>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -261,6 +280,7 @@
 	</div>
 </footer>
 
+<!-- <script src="./../../files/swiper/swiper.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./../../js/index.js"></script>
 </body>
