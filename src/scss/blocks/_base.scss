@@ -10,3 +10,9 @@
         @apply after:w-full after:h-full after:absolute after:rounded-md after:bg-blue-600 absolute w-4 h-4 bottom-0 right-0 bg-blue-500 box-content border-blue-500 border-[12px] rounded-tl-[10px] border-b-0 border-r-0;
     }
 }
+
+.text-content blockquote,
+.text-content b,
+.text-content p {
+    max-width: 1047px;
+}
