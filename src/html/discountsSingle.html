@@ -1,6 +1,6 @@
 @@include('blocks/header.html')
 
-<section class="bg-blue-500 pt-64 relative overflow-hidden">
+<section class="bg-blue-500 pt-32 md:pt-64 relative overflow-hidden">
     <div class="bg-[url('/img/news/bgd-single.jpg')] absolute top-0 left-0 w-full h-screen z-0 opacity-70">
         <div class="bg-gradient-to-t from-blue-500 absolute top-0 left-0 w-full h-full"></div>
     </div>
@@ -11,20 +11,18 @@
 
         <div class="pb-14">
 
-            <div
-                class="flex before:w-[6px] before:rounded-sm before:h-[6px] before:bg-white before:mr-[10px] opacity-60 items-center">
-                <span class="text-white text-sm">5 апреля 2024</span>
+            <div class="flex before:rounded-sm items-center">
+                <span
+                class="md:px-5 py-2 px-4 bg-[url('./../img/icons/bgd-blue-dor-rd.svg')] bg-no-repeat bg-right-bottom h-fit rounded-tl-xl rounded-bl-xl rounded-tr-xl overflow-hidden text-xs md:text-sm text-white">
+                    Действует до 30 марта 2024
+                </span>
             </div>
             <h1
-                class="btn-primary text-white text-[30px] font-bold break-words mt-4 leading-9 md:leading-tight md:max-w-[876px] md:text-[65px]">
+                class="btn-primary mb-14 text-white text-[30px] font-bold break-words mt-4 leading-9 md:leading-tight md:max-w-[876px] md:text-[65px]">
                 Живите лучше на Подоле в клубном доме OLEGIV Podil
             </h1>
-            <a href="#"
-                class="rounded-full border-[1px] border-white w-10 h-10 flex items-center justify-center mt-8 mb-14 md:w-14 md:h-14">
-                <img src="./../img/icons/socials.svg" class="md:w-6" alt="Soc">
-            </a>
 
-            <div class="flex justify-between w-full">
+            <div class="md:flex justify-between w-full">
 
                 <div class="max-w-[900px] block w-full">
 
@@ -77,38 +75,40 @@
 
                 </div>
 
-                <div class="max-w-[508px]">
-                    <p class="text-xl text-white opacity-40 mb-7">Проекты участвующие в акции</p>
+                <div class="max-w-[508px] mt-14 md:mt-0">
+                    <p class="text-base md:text-xl text-white opacity-40 mb-4 md:mb-7">Проекты участвующие в акции</p>
 
-                    <div class=" h-[600px] relative rounded-3xl overflow-hidden bg-[#111111]">
+                    <div class="h-[500px] md:h-[600px] relative rounded-3xl overflow-hidden bg-[#111111] rounded-br-none">
                         <img src="./../img/discounts/image.jpg" class="opacity-50" alt="">
                         <div class="bg-gradient-to-t from-blue-600 absolute bottom-0 left-0 w-full h-3/4"></div>
 
-                        <div class="absolute top-0 left-0 w-full h-full p-7 flex flex-col">
+                        <div class="absolute top-0 left-0 w-full h-full p-5 md:p-7 flex flex-col">
+                            <div class="block-bottom-point"></div>
+
                             <div class="flex justify-between mb-auto">
                                 <img class="w-[90px]" src="./../img/icons/icon-club.svg" alt="">
                                 <span
-                                    class="py-2 px-5 bg-[url('./../img/icons/bgd-blue-dor-rd.svg')] bg-no-repeat bg-right-bottom h-fit rounded-tl-xl rounded-bl-xl rounded-tr-xl overflow-hidden text-sm text-white">
+                                    class="md:px-5 py-2 px-4 bg-[url('./../img/icons/bgd-blue-dor-rd.svg')] bg-no-repeat bg-right-bottom h-fit rounded-tl-xl rounded-bl-xl rounded-tr-xl overflow-hidden text-xs md:text-sm text-white">
                                     80% Продано
                                 </span>
                             </div>
                             <div class="max-w-96">
-                                <h2 class="text-white text-3xl mb-7">
+                                <h2 class="text-white font-bold text-2xl md:text-3xl mb-5 md:mb-7">
                                     OM | Club House
                                 </h2>
-                                <p class="text-white text-sm mb-7">
+                                <p class="text-white text-xs md:text-sm mb-5 md:mb-7">
                                     Премиум апартаменты в современном клубном доме. Погрузитесь в уникальную атмосферу
                                     роскоши и
                                     уюта в центре Чангу.
                                 </p>
-                                <div class="flex items-center mb-7">
-                                    <strong class="text-2xl text-white mr-[6px]">от $120 000</strong>
-                                    <span class="text-white/60 text-[12px]">*включая налоги</span>
+                                <div class="flex items-center mb-5 md:mb-7">
+                                    <strong class="text-xl md:text-2xl text-white mr-[6px]">от $120 000</strong>
+                                    <span class="text-white/60 text-[12px] hidden md:block">*включая налоги</span>
                                 </div>
 
                                 <div class="flex">
                                     <button
-                                        class="border-white border-[1px] py-4 px-7 rounded-[10px] text-white font-bold text-base mr-7">
+                                        class="hover:bg-white hover:text-blue-400 transition-all border-white border-[1px] py-4 px-7 rounded-[10px] text-white font-bold text-sm md:text-base mr-7">
                                         Подробнее
                                     </button>
                                     <div class="flex items-center">
@@ -128,6 +128,6 @@
         </div>
     </div>
 </section>
-@@include('./blocks/news/elseNews.html')
+@@include('./blocks/discounts/elseDiscounts.html')
 
 @@include('blocks/footer.html')

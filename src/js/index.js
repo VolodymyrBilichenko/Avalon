@@ -1,6 +1,6 @@
 
 
-const swiper = new Swiper('.swiper.else-news', {
+const swiperNews = new Swiper('.swiper.else-news', {
     loop: true,
     slidesPerView: 1,
 
@@ -19,6 +19,37 @@ const swiper = new Swiper('.swiper.else-news', {
                 prevEl: '.button-prev',
             },
         }
+    }
+});
+
+const swiperArticles = new Swiper('.swiper.else-articles', {
+    loop: true,
+    slidesPerView: 1,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            pagination: false,
+            navigation: {
+                nextEl: '.button-next',
+                prevEl: '.button-prev',
+            },
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            pagination: false,
+            navigation: {
+                nextEl: '.button-next',
+                prevEl: '.button-prev',
+            },
+        },
     }
 });
 
