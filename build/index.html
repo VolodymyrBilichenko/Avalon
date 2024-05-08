@@ -16,180 +16,460 @@
 <body>
 	<header class="bg-blue-500 py-4 fixed top-0 left-0 w-full border-b border-b-whiteOp-300 z-10">
 		<div class="container">
-			<div class="header__inner flex items-center justify-between">
+			<div class="header__inner flex items-center justify-between relative">
 				<a href="../index.html">
 					<img src="../../img/icons/logo-mob.svg" alt="logo ic">
 				</a>
 				<button type="button"><img src="../../img/icons/burder.svg" alt="burger ic"></button>
+				<!-- <div class="burger__body absolute top-12 left-0 bg-blue-500 w-[calc(100%_+_60px)] -ml-[30px] flex-col flex text-center pt-12 pb-8 text-white text-lg">
+
+					<div class="burger__proj mb-8">
+						<p class="hover:text-blue-400 transition-all cursor-pointer">
+							Проекты
+						</p>
+						<div class="burger__proj_body mt-8 flex flex-col">
+							<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+								BUDDHA | Club House
+							</a>
+							<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+								OM | Club House
+							</a>
+							<a href="#" class=" hover:text-blue-400 transition-all">
+								JUST Club House
+							</a>
+						</div>
+					</div>
+					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+						Про компанию
+					</a>
+					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+						Почему Бали?
+					</a>
+					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+						Агентам
+					</a>
+					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+						Вакансии
+					</a>
+					<a href="#" class=" hover:text-blue-400 transition-all">
+						Контакты
+					</a>
+				</div> -->
 			</div>
 		</div>
 	</header>
 
 <section class="pb-12">
-    
-    <!-- <img src="../img/index/banner-bgd.jpg" alt=""> -->
-    <!-- <div class="container relative z-10"> -->
-        <div class="swiper swiper-banner">
-            <div class="swiper-wrapper">
+    <div class="swiper swiper-banner">
+        <div class="swiper-wrapper">
 
-                <div class="swiper-slide pb-10 pt-40 relative overflow-hidden">
-                    <div class="container">
-                        <div class="bg-[url('../img/index/slide-bgd-1.jpg')] bg-center absolute top-0 left-0 w-full h-screen -z-10 opacity-50">
-                        </div>
-                        <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 bottom-0 left-0"></div>
-                        <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 top-0 left-0 rotate-180"></div>
-                        <div class="banner__item__head md:flex">
-                            <div class="flex">
-                                <h1 class="text-white text-[45px] md:text-[75px] mr-3">
-                                    AVALON
-                                </h1>
-                                <span class="text-white bg-blue-400 h-6 text-center flex items-center px-2  rounded-xl text-sm md:h-8 md:px-3">
-                                    БАЛИ
-                                </span>
-                            </div>
-                            <div class="con md:ml-10 md:pl-5 md:border-l md:border-whiteOp-300 md:px-7">
-                                <div class="relative px-5 py-3 w-fit md:text-center">
-                                    <img class="absolute top-0 left-0 -z-10 md:hidden" src="../img/index/bgd-decor.png" alt="bgd">
-                                    <img class="absolute top-0 left-0 -z-10 hidden md:block h-[-webkit-fill-available]" src="../img/index/bgd-decor-2.png" alt="bgd">
-                                    <h2 class="text-sm text-white">
-                                        Стоимость <br class="hidden md:block"> <span class="font-bold md:text-xl">от $70.000</span>
-                                    </h2>
-                                    <p class="text-xs text-slate-50 opacity-60 text-center">
-                                        *включая налоги
-                
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <h2 class="text-3xl text-white mt-5 md:text-6xl md:mt-12 md:max-w-[825px]">
-                            Современные апартаменты <br class="md:hidden"> 
-                            <span class="font-bold">
-                                для жизни <br class="md:hidden"> и инвестиций
-                            </span>
-                        </h2>
-                        <a href="#" class="w-full max-w-56 md:max-w-72 px-5 py-4 block text-sm md:text-base bg-white rounded-xl text-center font-bold whitespace-nowrap text-blue-500 hover:text-white hover:bg-blue-400 my-10 transition-all md:mt-12 md:mb-28">
-                            Скачать презентацию
-                        </a>
-                        <div class="flex gap-5">
-                            <div class="pr-5 border-r border-whiteOp-300">
-                                <p class="font-bold text-white text-2xl mb-2 md:text-4xl md:mb-3">
-                                    5 лет
-                                </p>
-                                <span class="text-white text-sm md:text-base">
-                                    Возврат <br class="md:hidden">инвестиций
-                                </span>
-                            </div>
-                            <div>
-                                <p class="font-bold text-white text-2xl mb-2 md:text-4xl md:mb-3">
-                                    15%
-                                </p>
-                                <span class="text-white text-sm md:text-base">
-                                    Средняя <br class="md:hidden">доходность
-                                </span>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-
-                <div class="swiper-slide pb-10 pt-36 relative overflow-hidden">
-                    <div class="bg-[url('../img/index/slide-bgd-2.jpg')] bg-center absolute top-0 left-0 w-full h-screen -z-10 opacity-50">
+            <div class="swiper-slide pt-40 relative overflow-hidden">
+                <div class="container">
+                    <div class="bg-[url('../img/index/slide-bgd-1.jpg')] bg-center absolute top-0 left-0 w-full h-screen -z-10 opacity-50">
                     </div>
                     <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 bottom-0 left-0"></div>
                     <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 top-0 left-0 rotate-180"></div>
-
-                    <div class="container">
-                        <div class="banner__item__head md:flex items-center">
-                            <img src="../img/index/Budha-logo.svg" class="mb-7 md:mb-0" alt="logo">
-                            <div class="con md:ml-10 ">
-                                <div class="relative px-5 py-3 w-fit md:text-center md:px-7">
-                                    <img class="absolute top-0 left-0 -z-10 md:hidden" src="../img/index/bgd-decor.png" alt="bgd">
-                                    <img class="absolute top-0 left-0 -z-10 hidden md:block h-[-webkit-fill-available]" src="../img/index/bgd-decor-2.png" alt="bgd">
-                                    <h2 class="text-sm text-white">
-                                        Стоимость <br class="hidden md:block"> <span class="font-bold md:text-xl">от $70.000</span>
-                                    </h2>
-                                    <p class="text-xs text-slate-50 opacity-60 text-center">
-                                        *включая налоги
-                
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <h2 class="text-3xl text-white mt-5 md:text-6xl md:mt-12 md:max-w-[825px]">
-                            <span class="font-bold">
-                                BUDDHA | Club House
+                    <div class="banner__item__head md:flex">
+                        <div class="flex">
+                            <h1 class="text-white text-[45px] md:text-[75px] mr-3">
+                                AVALON
+                            </h1>
+                            <span class="text-white bg-blue-400 h-6 text-center flex items-center px-2  rounded-xl text-sm md:h-8 md:px-3">
+                                БАЛИ
                             </span>
-                        </h2>
-                        <p class="text-white text-sm max-w-64 md:max-w-[416px] md:text-base mt-3 md:mt-12">
-                            Апарт отель для инвестиций в сердце Чангу, район Берава. Топовая локация в 700 метрах от пляжа. Идеально для инвестиций. 
-                        </p>
-                        <a href="#" class="w-full max-w-56 md:max-w-72 px-5 py-4 block text-sm md:text-base bg-white rounded-xl text-center font-bold whitespace-nowrap text-blue-500 hover:text-white hover:bg-blue-400 my-10 transition-all md:mt-12 md:mb-52">
-                            Скачать презентацию
-                        </a>
+                        </div>
+                        <div class="con md:ml-10 md:pl-5 md:border-l md:border-whiteOp-300 md:px-7">
+                            <div class="relative px-5 py-3 w-fit md:text-center">
+                                <img class="absolute top-0 left-0 -z-10 md:hidden" src="../img/index/bgd-decor.png" alt="bgd">
+                                <img class="absolute top-0 left-0 -z-10 hidden md:block h-[-webkit-fill-available]" src="../img/index/bgd-decor-2.png" alt="bgd">
+                                <h2 class="text-sm text-white">
+                                    Стоимость <br class="hidden md:block"> <span class="font-bold md:text-xl">от $70.000</span>
+                                </h2>
+                                <p class="text-xs text-slate-50 opacity-60 text-center">
+                                    *включая налоги
+            
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <div class="swiper-slide pb-10 pt-40 relative overflow-hidden">
-                    <div class="container">
-                        <div class="bg-[url('../img/index/slide-bgd-1.jpg')] bg-center absolute top-0 left-0 w-full h-screen -z-10 opacity-50">
-                        </div>
-                        <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 bottom-0 left-0"></div>
-                        <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 top-0 left-0 rotate-180"></div>
-                        <div class="banner__item__head md:flex">
-                            <div class="flex">
-                                <h1 class="text-white text-[45px] md:text-[75px] mr-3">
-                                    AVALON
-                                </h1>
-                                <span class="text-white bg-blue-400 h-6 text-center flex items-center px-2  rounded-xl text-sm md:h-8 md:px-3">
-                                    БАЛИ
-                                </span>
-                            </div>
-                            <div class="con md:ml-10 md:pl-5 md:border-l md:border-whiteOp-300">
-                                <div class="relative px-5 py-3 w-fit md:text-center">
-                                    <img class="absolute top-0 left-0 -z-10 md:hidden" src="../img/index/bgd-decor.png" alt="bgd">
-                                    <img class="absolute top-0 left-0 -z-10 hidden md:block h-[-webkit-fill-available]" src="../img/index/bgd-decor-2.png" alt="bgd">
-                                    <h2 class="text-sm text-white">
-                                        Стоимость <br class="hidden md:block"> <span class="font-bold md:text-xl">от $70.000</span>
-                                    </h2>
-                                    <p class="text-xs text-slate-50 opacity-60 text-center">
-                                        *включая налоги
-                
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <h2 class="text-3xl text-white mt-5 md:text-6xl md:mt-12 md:max-w-[825px]">
-                            Современные апартаменты <br class="md:hidden"> 
-                            <span class="font-bold">
-                                для жизни <br class="md:hidden"> и инвестиций
+                    <h2 class="text-3xl text-white mt-5 md:text-6xl md:mt-12 md:max-w-[825px]">
+                        Современные апартаменты <br class="md:hidden"> 
+                        <span class="font-bold">
+                            для жизни <br class="md:hidden"> и инвестиций
+                        </span>
+                    </h2>
+                    <a href="#" class="w-full max-w-56 md:max-w-72 px-5 py-4 block text-sm md:text-base bg-white rounded-xl text-center font-bold whitespace-nowrap text-blue-500 hover:text-white hover:bg-blue-400 my-10 transition-all md:mt-12 md:mb-28">
+                        Скачать презентацию
+                    </a>
+                    <div class="flex gap-5">
+                        <div class="pr-5 border-r border-whiteOp-300">
+                            <p class="font-bold text-white text-2xl mb-2 md:text-4xl md:mb-3">
+                                5 лет
+                            </p>
+                            <span class="text-white text-sm md:text-base">
+                                Возврат <br class="md:hidden">инвестиций
                             </span>
-                        </h2>
-                        <a href="#" class="w-full max-w-56 md:max-w-72 px-5 py-4 block text-sm md:text-base bg-white rounded-xl text-center font-bold whitespace-nowrap text-blue-500 hover:text-white hover:bg-blue-400 my-10 transition-all md:mt-12 md:mb-28">
-                            Скачать презентацию
-                        </a>
-                        <div class="flex gap-5">
-                            <div class="pr-5 border-r border-whiteOp-300">
-                                <p class="font-bold text-white text-2xl mb-2 md:text-4xl md:mb-3">
-                                    5 лет
-                                </p>
-                                <span class="text-white text-sm md:text-base">
-                                    Возврат <br class="md:hidden">инвестиций
-                                </span>
-                            </div>
-                            <div>
-                                <p class="font-bold text-white text-2xl mb-2 md:text-4xl md:mb-3">
-                                    15%
-                                </p>
-                                <span class="text-white text-sm md:text-base">
-                                    Средняя <br class="md:hidden">доходность
-                                </span>
-                            </div>
-                        </div> 
-                    </div>
+                        </div>
+                        <div>
+                            <p class="font-bold text-white text-2xl mb-2 md:text-4xl md:mb-3">
+                                15%
+                            </p>
+                            <span class="text-white text-sm md:text-base">
+                                Средняя <br class="md:hidden">доходность
+                            </span>
+                        </div>
+                    </div> 
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
+
+            <div class="swiper-slide pb-10 pt-36 relative overflow-hidden">
+                <div class="bg-[url('../img/index/slide-bgd-2.jpg')] bg-center absolute top-0 left-0 w-full h-screen -z-10 opacity-50">
+                </div>
+                <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 bottom-0 left-0"></div>
+                <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 top-0 left-0 rotate-180"></div>
+
+                <div class="container">
+                    <div class="banner__item__head md:flex items-center">
+                        <img src="../img/index/Budha-logo.svg" class="mb-7 md:mb-0" alt="logo">
+                        <div class="con md:ml-10 ">
+                            <div class="relative px-5 py-3 w-fit md:text-center md:px-7">
+                                <img class="absolute top-0 left-0 -z-10 md:hidden" src="../img/index/bgd-decor.png" alt="bgd">
+                                <img class="absolute top-0 left-0 -z-10 hidden md:block h-[-webkit-fill-available]" src="../img/index/bgd-decor-2.png" alt="bgd">
+                                <h2 class="text-sm text-white">
+                                    Стоимость <br class="hidden md:block"> <span class="font-bold md:text-xl">от $70.000</span>
+                                </h2>
+                                <p class="text-xs text-slate-50 opacity-60 text-center">
+                                    *включая налоги
+            
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="text-3xl text-white mt-5 md:text-6xl md:mt-12 md:max-w-[825px]">
+                        <span class="font-bold">
+                            BUDDHA | Club House
+                        </span>
+                    </h2>
+                    <p class="text-white text-sm max-w-64 md:max-w-[416px] md:text-base mt-3 md:mt-12">
+                        Апарт отель для инвестиций в сердце Чангу, район Берава. Топовая локация в 700 метрах от пляжа. Идеально для инвестиций. 
+                    </p>
+                    <a href="#" class="w-full max-w-56 md:max-w-72 px-5 py-4 block text-sm md:text-base bg-white rounded-xl text-center font-bold whitespace-nowrap text-blue-500 hover:text-white hover:bg-blue-400 my-10 transition-all md:mt-12 md:mb-52">
+                        Скачать презентацию
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide pb-10 pt-40 relative overflow-hidden">
+                <div class="container">
+                    <div class="bg-[url('../img/index/slide-bgd-1.jpg')] bg-center absolute top-0 left-0 w-full h-screen -z-10 opacity-50">
+                    </div>
+                    <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 bottom-0 left-0"></div>
+                    <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 top-0 left-0 rotate-180"></div>
+                    <div class="banner__item__head md:flex">
+                        <div class="flex">
+                            <h1 class="text-white text-[45px] md:text-[75px] mr-3">
+                                AVALON
+                            </h1>
+                            <span class="text-white bg-blue-400 h-6 text-center flex items-center px-2  rounded-xl text-sm md:h-8 md:px-3">
+                                БАЛИ
+                            </span>
+                        </div>
+                        <div class="con md:ml-10 md:pl-5 md:border-l md:border-whiteOp-300">
+                            <div class="relative px-5 py-3 w-fit md:text-center">
+                                <img class="absolute top-0 left-0 -z-10 md:hidden" src="../img/index/bgd-decor.png" alt="bgd">
+                                <img class="absolute top-0 left-0 -z-10 hidden md:block h-[-webkit-fill-available]" src="../img/index/bgd-decor-2.png" alt="bgd">
+                                <h2 class="text-sm text-white">
+                                    Стоимость <br class="hidden md:block"> <span class="font-bold md:text-xl">от $70.000</span>
+                                </h2>
+                                <p class="text-xs text-slate-50 opacity-60 text-center">
+                                    *включая налоги
+            
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="text-3xl text-white mt-5 md:text-6xl md:mt-12 md:max-w-[825px]">
+                        Современные апартаменты <br class="md:hidden"> 
+                        <span class="font-bold">
+                            для жизни <br class="md:hidden"> и инвестиций
+                        </span>
+                    </h2>
+                    <a href="#" class="w-full max-w-56 md:max-w-72 px-5 py-4 block text-sm md:text-base bg-white rounded-xl text-center font-bold whitespace-nowrap text-blue-500 hover:text-white hover:bg-blue-400 my-10 transition-all md:mt-12 md:mb-28">
+                        Скачать презентацию
+                    </a>
+                    <div class="flex gap-5">
+                        <div class="pr-5 border-r border-whiteOp-300">
+                            <p class="font-bold text-white text-2xl mb-2 md:text-4xl md:mb-3">
+                                5 лет
+                            </p>
+                            <span class="text-white text-sm md:text-base">
+                                Возврат <br class="md:hidden">инвестиций
+                            </span>
+                        </div>
+                        <div>
+                            <p class="font-bold text-white text-2xl mb-2 md:text-4xl md:mb-3">
+                                15%
+                            </p>
+                            <span class="text-white text-sm md:text-base">
+                                Средняя <br class="md:hidden">доходность
+                            </span>
+                        </div>
+                    </div> 
+                </div>
+            </div>
         </div>
-    <!-- </div> -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<section class="uslugi pt-5 pb-12">
+    <div class="container">
+        <div class="w-full flex flex-col items-center text-center md:flex-row md:justify-between md:mb-12 md:text-start ">
+            <div>
+                <p class="text-white mb-[10px] text-sm md:text-base md:mb-1">
+                    Воплоти мечту в реальность
+                </p>
+                <h2 class="text-white text-3xl font-bold md:text-[56px]">
+                    Наши проекты
+                </h2>            
+            </div>
+            <a href="#" class="w-full max-w-[190px] md:max-w-56 px-5 py-4 block text-sm md:text-base bg-white rounded-xl text-center font-bold whitespace-nowrap text-blue-500 hover:text-white hover:bg-blue-400 mt-5 mb-8 transition-all md:m-0">
+                Получить каталог
+            </a>
+        </div>
+
+        <div class="flex flex-col gap-5 items-center md:flex-wrap lg:flex-row lg:flex-nowrap">
+
+            <div class="max-w-[508px]">
+
+                <div class="h-[500px] md:h-[600px] relative rounded-3xl overflow-hidden bg-[#111111] rounded-br-none">
+                    <img src="./../img/discounts/image.jpg" class="opacity-50" alt="">
+                    <div class="bg-gradient-to-t from-blue-600 absolute bottom-0 left-0 w-full h-3/4"></div>
+
+                    <div class="absolute top-0 left-0 w-full h-full p-5 md:p-7 flex flex-col">
+                        <div class="block-bottom-point"></div>
+
+                        <div class="flex justify-between mb-auto">
+                            <img class="w-[90px]" src="./../img/icons/icon-club.svg" alt="">
+                            <span
+                                class="md:px-5 py-2 px-4 bg-[url('./../img/icons/bgd-blue-dor-rd.svg')] bg-no-repeat bg-right-bottom h-fit rounded-tl-xl rounded-bl-xl rounded-tr-xl overflow-hidden text-xs md:text-sm text-white">
+                                80% Продано
+                            </span>
+                        </div>
+                        <div class="max-w-96">
+                            <h2 class="text-white font-bold text-2xl md:text-3xl mb-5 md:mb-7">
+                                OM | Club House
+                            </h2>
+                            <p class="text-white text-xs md:text-sm mb-5 md:mb-7">
+                                Премиум апартаменты в современном клубном доме. Погрузитесь в уникальную атмосферу
+                                роскоши и
+                                уюта в центре Чангу.
+                            </p>
+                            <div class="flex items-center mb-5 md:mb-7">
+                                <strong class="text-xl md:text-2xl text-white mr-[6px]">от $120 000</strong>
+                                <span class="text-white/60 text-[12px] hidden md:block">*включая налоги</span>
+                            </div>
+
+                            <div class="flex">
+                                <button
+                                    class="hover:bg-white hover:text-blue-400 transition-all border-white border-[1px] py-4 px-7 rounded-[10px] text-white font-bold text-sm md:text-base mr-7">
+                                    Подробнее
+                                </button>
+                                <div class="flex items-center">
+                                    <img class="w-3" src="./../img/icons/point-white.svg" alt="">
+                                    <span class="ml-1 text-sm text-white">Чангу</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="max-w-[508px]">
+
+                <div class="h-[500px] md:h-[600px] relative rounded-3xl overflow-hidden bg-[#111111] rounded-br-none">
+                    <img src="./../img/discounts/image.jpg" class="opacity-50" alt="">
+                    <div class="bg-gradient-to-t from-blue-600 absolute bottom-0 left-0 w-full h-3/4"></div>
+
+                    <div class="absolute top-0 left-0 w-full h-full p-5 md:p-7 flex flex-col">
+                        <div class="block-bottom-point"></div>
+
+                        <div class="flex justify-between mb-auto">
+                            <img class="w-[90px]" src="./../img/icons/icon-club.svg" alt="">
+                            <span
+                                class="md:px-5 py-2 px-4 bg-[url('./../img/icons/bgd-blue-dor-rd.svg')] bg-no-repeat bg-right-bottom h-fit rounded-tl-xl rounded-bl-xl rounded-tr-xl overflow-hidden text-xs md:text-sm text-white">
+                                80% Продано
+                            </span>
+                        </div>
+                        <div class="max-w-96">
+                            <h2 class="text-white font-bold text-2xl md:text-3xl mb-5 md:mb-7">
+                                OM | Club House
+                            </h2>
+                            <p class="text-white text-xs md:text-sm mb-5 md:mb-7">
+                                Премиум апартаменты в современном клубном доме. Погрузитесь в уникальную атмосферу
+                                роскоши и
+                                уюта в центре Чангу.
+                            </p>
+                            <div class="flex items-center mb-5 md:mb-7">
+                                <strong class="text-xl md:text-2xl text-white mr-[6px]">от $120 000</strong>
+                                <span class="text-white/60 text-[12px] hidden md:block">*включая налоги</span>
+                            </div>
+
+                            <div class="flex">
+                                <button
+                                    class="hover:bg-white hover:text-blue-400 transition-all border-white border-[1px] py-4 px-7 rounded-[10px] text-white font-bold text-sm md:text-base mr-7">
+                                    Подробнее
+                                </button>
+                                <div class="flex items-center">
+                                    <img class="w-3" src="./../img/icons/point-white.svg" alt="">
+                                    <span class="ml-1 text-sm text-white">Чангу</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="max-w-[508px]">
+
+                <div class="h-[500px] md:h-[600px] relative rounded-3xl overflow-hidden bg-[#111111] rounded-br-none">
+                    <img src="./../img/discounts/image.jpg" class="opacity-50" alt="">
+                    <div class="bg-gradient-to-t from-blue-600 absolute bottom-0 left-0 w-full h-3/4"></div>
+
+                    <div class="absolute top-0 left-0 w-full h-full p-5 md:p-7 flex flex-col">
+                        <div class="block-bottom-point"></div>
+
+                        <div class="flex justify-between mb-auto">
+                            <img class="w-[90px]" src="./../img/icons/icon-club.svg" alt="">
+                            <span
+                                class="md:px-5 py-2 px-4 bg-[url('./../img/icons/bgd-blue-dor-rd.svg')] bg-no-repeat bg-right-bottom h-fit rounded-tl-xl rounded-bl-xl rounded-tr-xl overflow-hidden text-xs md:text-sm text-white">
+                                80% Продано
+                            </span>
+                        </div>
+                        <div class="max-w-96">
+                            <h2 class="text-white font-bold text-2xl md:text-3xl mb-5 md:mb-7">
+                                OM | Club House
+                            </h2>
+                            <p class="text-white text-xs md:text-sm mb-5 md:mb-7">
+                                Премиум апартаменты в современном клубном доме. Погрузитесь в уникальную атмосферу
+                                роскоши и
+                                уюта в центре Чангу.
+                            </p>
+                            <div class="flex items-center mb-5 md:mb-7">
+                                <strong class="text-xl md:text-2xl text-white mr-[6px]">от $120 000</strong>
+                                <span class="text-white/60 text-[12px] hidden md:block">*включая налоги</span>
+                            </div>
+
+                            <div class="flex">
+                                <button
+                                    class="hover:bg-white hover:text-blue-400 transition-all border-white border-[1px] py-4 px-7 rounded-[10px] text-white font-bold text-sm md:text-base mr-7">
+                                    Подробнее
+                                </button>
+                                <div class="flex items-center">
+                                    <img class="w-3" src="./../img/icons/point-white.svg" alt="">
+                                    <span class="ml-1 text-sm text-white">Чангу</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="map py-14 md:py-24 bg-blue-600 overflow-hidden">
+    <div class="container">
+        <div class="relative md:flex">
+            <!--  -->
+            <img src="../img/index/map.svg" class=" w-[calc(100%_+_60px)] scale-150 max-w-none md:scale-100 md:w-[100%] md:absolute md:left-0 md:max-w-[1200px]" alt="ic"> 
+            <div class="rht mt-16 md:ml-auto md:mt-[410px] w-full lg:max-w-[752px]">
+                <h2 class="text-white font-bold text-2xl mb-7 md:text-6xl md:mb-12">
+                    Топовые локации объектов
+                </h2>
+                <p class="text-white text-sm mb-5 md:text-xl">
+                    Наши апартаменты находятся в самом привлекательном районе Бали. Это идеальное место для инвестирования в недвижимость, благодаря своему превосходному расположению и потенциалу для высокой доходности
+                </p>
+                <ul class="text-white flex gap-4 items-center text-base font-semibold justify-center md:text-xl md:justify-start">
+                    <li class="relative">
+                        <p class="before:block before:rounded-full before:w-2 before:h-2 before:border-2 before:border-blue-400 before:bg-transparent before:border before:absolute before:right-0 before:top-[50%] before:translate-y-[-50%] pr-6">
+                            Берава
+                        </p>
+                    </li>
+                    <li class="relative">
+                        <p class="before:block before:rounded-full before:w-2 before:h-2 before:border-2 before:border-blue-400 before:bg-transparent before:border before:absolute before:right-0 before:top-[50%] before:translate-y-[-50%] pr-6">
+                            Чангу
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Переренан
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="island py-16">
+    <div class="container">
+        <div class="mb-8 text-center">
+            <p class="text-white mb-2 text-sm">
+                Почему выбирают Бали?
+            </p>
+            <h2 class="text-white font-bold text-3xl">
+                Остров Богов
+            </h2>
+        </div>
+        <ol>
+            <li class="mb-4 ">
+                <h3 class="font-bold text-white text-base decoration-dashed">
+                    Высокая доходность
+                </h3>
+                <p>
+                    Инвестиции в недвижимость на Бали обеспечивают до 20% доходности в год благодаря высокому спросу на аренду
+                </p>
+            </li>
+            <li>
+                Быстрая окупаемость
+                <p>
+                    Стабильный спрос на аренду и рост цен обеспечивают быструю окупаемость инвестиций в недвижимость на Бали.
+                </p>
+            </li>
+            <li>
+                Туристический поток
+                <p>
+                    Бали привлекает огромное количество туристов каждый год, обеспечивая стабильный поток арендных доходов.
+                </p>
+            </li>
+            <li>
+                Стабильная экономика
+                <p>
+                    Стабильная экономика способствует росту цен на недвижимость и обеспечивает долгосрочный роста капитала.
+                </p>
+            </li>
+            <li>
+                Политическая стабильность
+                <p>
+                    Политическая стабильность создает благоприятную среду для инвестиций в недвижимость на Бали.
+                </p>
+            </li>
+            <li>
+                Низкая инфляция
+                <p>
+                    Низкий уровень инфляции обеспечивает прогнозируемые цены на аренду, делая инвестиции предсказуемыми.
+                </p>
+            </li>
+        </ol>
+        
+    </div>
 </section>
 
 
