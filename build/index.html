@@ -14,7 +14,7 @@
 </head>
 
 <body>
-	<header class="bg-blue-500 py-4 fixed top-0 left-0">
+	<header class="bg-blue-500 py-4 fixed top-0 left-0 w-full border-b border-b-whiteOp-300 z-10">
 		<div class="container">
 			<div class="header__inner flex items-center justify-between">
 				<a href="../index.html">
@@ -25,14 +25,17 @@
 		</div>
 	</header>
 
-<section class="pb-20 pt-40 relative overflow-hidden">
-    <div class="bg-[url('../img/index/banner-bgd.jpg')] absolute top-0 left-0 w-full h-screen z-10 opacity-50">
-        <div class="bg-gradient-to-t from-blue-500 absolute top-0 left-0 w-full h-full"></div>
-    </div>
+<section class="">
+    
     <!-- <img src="../img/index/banner-bgd.jpg" alt=""> -->
-    <div class="container relative z-10">
-        <div class="banner__inner">
-            <div class="banner__item">
+    <!-- <div class="container relative z-10"> -->
+        <div class="banner__inner ">
+            <div class="banner__item pb-20 pt-40 px-7 relative overflow-hidden">
+                <div class="bg-[url('../img/index/banner-bgd.jpg')] bg-center absolute top-0 left-0 w-full h-screen -z-10 opacity-50">
+                    <!-- <div class="bg-gradient-to-t from-blue-500 absolute top-0 left-0 w-full h-full"></div> -->
+                </div>
+                <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 bottom-0 left-0"></div>
+                <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 top-0 left-0 rotate-180"></div>
                 <div class="banner__item__head">
                     <div class="flex">
                         <h1 class="text-white text-[45px] md:text-[75px] mr-3">
@@ -42,16 +45,16 @@
                             БАЛИ
                         </span>
                     </div>
-                </div>
-                <div class="relative px-5 py-3 w-fit">
-                    <img class="absolute top-0 left-0 -z-10" src="../img/index/bgd-decor.png" alt="bgd">
-                    <h2 class="text-sm text-white">
-                        Стоимость <span class="font-bold">от $70.000</span>
-                    </h2>
-                    <p class="text-xs text-slate-50 opacity-60 text-center">
-                        *включая налоги
-
-                    </p>
+                    <div class="relative px-5 py-3 w-fit">
+                        <img class="absolute top-0 left-0 -z-10" src="../img/index/bgd-decor.png" alt="bgd">
+                        <h2 class="text-sm text-white">
+                            Стоимость <span class="font-bold">от $70.000</span>
+                        </h2>
+                        <p class="text-xs text-slate-50 opacity-60 text-center">
+                            *включая налоги
+    
+                        </p>
+                    </div>
                 </div>
                 <h2 class="text-3xl text-white mt-5">
                     Современные апартаменты <br class="md: flex-none"> 
@@ -62,9 +65,28 @@
                 <a href="#" class="w-full max-w-56 px-5 py-4 block text-sm bg-white rounded-xl text-center font-bold whitespace-nowrap text-blue-500 hover:text-white hover:bg-blue-400 my-10 transition-all">
                     Скачать презентацию
                 </a>
+                <div class="flex gap-5">
+                    <div class="pr-5 border-r border-whiteOp-300">
+                        <p class="font-bold text-white text-2xl mb-2">
+                            5 лет
+                        </p>
+                        <span class="text-white text-sm">
+                            Возврат <br>инвестиций
+                        </span>
+                    </div>
+                    <div>
+                        <p class="font-bold text-white text-2xl mb-2">
+                            15%
+                        </p>
+                        <span class="text-white text-sm">
+                            Средняя <br>доходность
+                        </span>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
+    <!-- </div> -->
 </section>
 
 
