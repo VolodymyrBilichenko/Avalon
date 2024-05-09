@@ -36,7 +36,9 @@ module.exports = {
           '600': '#002D52',         
         },
         whiteOp: {
+          '200': '#FFFFFF1A',
           '300': '#FFFFFF33',
+          '400': '#E7EDF2',
         }
       }
     },
