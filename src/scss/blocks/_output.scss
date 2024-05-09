@@ -818,6 +818,14 @@ video {
   z-index: 40;
 }
 
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+.col-end-3 {
+  grid-column-end: 3;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -953,6 +961,10 @@ video {
 
 .ml-5 {
   margin-left: 1.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .line-clamp-2 {
@@ -1172,6 +1184,10 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row-reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -1232,6 +1248,16 @@ video {
 
 .gap-y-8 {
   row-gap: 2rem;
+}
+
+.gap-x-2 {
+  -webkit-column-gap: 0.5rem;
+     -moz-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+}
+
+.gap-y-7 {
+  row-gap: 1.75rem;
 }
 
 .overflow-hidden {
@@ -1557,6 +1583,10 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .text-center {
@@ -1933,6 +1963,18 @@ video {
     margin-top: 410px;
   }
 
+  .md\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .md\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -2145,6 +2187,10 @@ video {
     padding-top: 16rem;
   }
 
+  .md\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
   .md\:text-center {
     text-align: center;
   }
@@ -2210,6 +2256,10 @@ video {
     line-height: 1.75rem;
   }
 
+  .md\:text-\[40px\] {
+    font-size: 40px;
+  }
+
   .md\:leading-5 {
     line-height: 1.25rem;
   }
@@ -2220,6 +2270,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-end-1 {
+    grid-column-end: 1;
+  }
+
   .lg\:m-0 {
     margin: 0px;
   }
@@ -2236,6 +2290,10 @@ video {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:h-12 {
@@ -2293,6 +2351,16 @@ video {
 
   .lg\:gap-7 {
     gap: 1.75rem;
+  }
+
+  .lg\:gap-y-12 {
+    row-gap: 3rem;
+  }
+
+  .lg\:gap-x-5 {
+    -webkit-column-gap: 1.25rem;
+       -moz-column-gap: 1.25rem;
+            column-gap: 1.25rem;
   }
 
   .lg\:border-b {
