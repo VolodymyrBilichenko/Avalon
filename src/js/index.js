@@ -1,4 +1,4 @@
-
+AOS.init();
 
 const swiperNews = new Swiper('.swiper.else-news', {
     loop: true,
