@@ -1935,6 +1935,10 @@ video {
   --tw-gradient-from-position: 80%;
 }
 
+.from-70\% {
+  --tw-gradient-from-position: 70%;
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -3317,6 +3321,10 @@ video {
 
   .lg\:from-80\% {
     --tw-gradient-from-position: 80%;
+  }
+
+  .lg\:from-70\% {
+    --tw-gradient-from-position: 70%;
   }
 
   .lg\:bg-cover {
