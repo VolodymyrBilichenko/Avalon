@@ -1031,6 +1031,10 @@ video {
   margin-top: auto;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1469,6 +1473,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-\[5px\] {
+  gap: 5px;
 }
 
 .gap-x-2 {
@@ -2011,6 +2019,11 @@ video {
 
 .text-whiteOp-300 {
   color: #FFFFFF33;
+}
+
+.text-whiteOp-400 {
+  --tw-text-opacity: 1;
+  color: rgb(231 237 242 / var(--tw-text-opacity));
 }
 
 .opacity-0 {
