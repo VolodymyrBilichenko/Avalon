@@ -1,3 +1,4 @@
 node_modules
 build
 src/scss/blocks/_output.scss
+build/css/main.css

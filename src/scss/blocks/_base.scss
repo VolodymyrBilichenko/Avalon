@@ -18,6 +18,9 @@
     .white-button {
         @apply w-fit px-5 md:px-8 py-4 block text-sm md:text-base bg-white rounded-xl text-center font-bold whitespace-nowrap text-blue-500 hover:text-white hover:bg-blue-400 transition-all md:m-0
     }
+    .white-border-button {
+        @apply text-white font-bold hover:bg-white hover:text-blue-400 transition-all rounded-[10px] border-white border-[1px] text-sm md:text-base cursor-pointer px-7 py-4 md:py-5 mx-auto block mt-12
+    }
 }
 
 .text-content blockquote,
