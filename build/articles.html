@@ -15,20 +15,22 @@
 </head>
 
 <body>
+
 	<header class="bg-blue-500 py-4 fixed top-0 left-0 w-full border-b border-b-whiteOp-300 z-30">
 		<div class="container">
 			<div class="header__inner flex items-center justify-between relative">
 				<a href="../index.html">
 					<img src="../../img/icons/logo-mob.svg" alt="logo ic">
 				</a>
-				<button type="button"><img src="../../img/icons/burder.svg" alt="burger ic"></button>
-				<!-- <div class="burger__body absolute top-12 left-0 bg-blue-500 w-[calc(100%_+_60px)] -ml-[30px] flex-col flex text-center pt-12 pb-8 text-white text-lg">
-
+				<button id="burgerBtn" type="button" class="xl:hidden">
+					<img src="../../img/icons/burder.svg" alt="burger ic">
+				</button>
+				<div id="burgerMenu" class="burger__body hidden absolute top-[47px] left-0 bg-blue-500 w-[calc(100%_+_60px)] -ml-[30px] flex-col flex text-center pt-12 pb-8 text-white text-lg">
 					<div class="burger__proj mb-8">
-						<p class="hover:text-blue-400 transition-all cursor-pointer">
+						<p id="toggleProjects" class="hover:text-blue-400 transition-all cursor-pointer">
 							Проекты
 						</p>
-						<div class="burger__proj_body mt-8 flex flex-col">
+						<div id="projectsBody" class="burger__proj_body mt-8 flex flex-col hidden">
 							<a href="#" class="mb-8 hover:text-blue-400 transition-all">
 								BUDDHA | Club House
 							</a>
@@ -55,7 +57,55 @@
 					<a href="#" class=" hover:text-blue-400 transition-all">
 						Контакты
 					</a>
-				</div> -->
+					<div class="mt-12 pt-7 border-t border-whiteOp-300 flex flex-col gap-4">
+						<a href="tel:+6281246502783" class="hover:text-blue-400 transition-all font-bold text-white text-base">+62 (812) 4650-27-83</a>
+	
+						<button type="button" class="py-4 w-full text-white text-xs font-bold max-w-56 m-auto border border-white rounded-xl transition-all hover:bg-white hover:text-blue-400">
+							Запланировать встречу
+						</button>
+					</div>
+					<div class="mt-12 pt-7 border-t border-whiteOp-300 flex gap-11 justify-center">
+						<ul class="flex items-center gap-4">
+							<li >
+								<a href="#" class="hover:text-blue-400 transition-all text-white text-base">
+									EN
+								</a>
+							</li>
+							<li >
+								<a href="#" class="hover:text-blue-400 transition-all text-white text-base">
+									UA
+								</a>
+							</li>
+							<li >
+								<a href="#" class="hover:text-blue-400 transition-all text-white text-base">
+									RU
+								</a>
+							</li>
+						</ul>
+						<ul class="flex items-center gap-1">
+							<li>
+								<a href="#">
+									<img src="../../img/index/tw-burger.svg" alt="ic">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../img/index/inst-burger.svg" alt="ic">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../img/index/face-burger.svg" alt="ic">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../img/index/yout-burger.svg" alt="ic">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>				
 			</div>
 		</div>
 	</header>
@@ -167,58 +217,109 @@
     </div>
 </section>
 
-<footer class="mt-a bg-blue-600 pt-14">
+<footer class="mt-a bg-blue-600 pt-14 md:pt-24">
 	<div class="container">
 
-		<div>
-			<div class="mb-10">
-				<a href="tel:+6281246502783" class="flex items-center gap-4 mb-7">
-					<img src="../../img/index/whatsap.svg" alt="ic">
-					<div>
-						<span class="text-whiteOp-400 text-sm">
-							WhatsApp 24/7 online
-						</span>
-						<p class="text-white font-bold text-sm">
-							+62 (812) 4650-27-83
-						</p>
-					</div>
-				</a>
-				<a href="mailto:mail@avalonbali.com" class="flex items-center gap-4">
-					<img src="../../img/index/whatsap.svg" alt="ic">
-					<div>
-						<span class="text-whiteOp-400 text-sm">
-							Email us
-						</span>
-						<p class="text-white font-bold text-sm">
-							mail@avalonbali.com
-						</p>
-					</div>
-				</a>
+		<div class="md:flex md:items-center gap-5 justify-between md:mb-24" >
+			<img src="../../img/index/a-footer.png" class="max-w-[379px] hidden lg:block" alt="ph">			
+			<div>
+				<div class="mb-10">
+					<a href="tel:+6281246502783" class="flex items-center gap-4 mb-7">
+						<img src="../../img/index/whatsap.svg" alt="ic">
+						<div>
+							<span class="text-whiteOp-400 text-sm">
+								WhatsApp 24/7 online
+							</span>
+							<p class="text-white font-bold text-sm">
+								+62 (812) 4650-27-83
+							</p>
+						</div>
+					</a>
+					<a href="mailto:mail@avalonbali.com" class="flex items-center gap-4">
+						<img src="../../img/index/whatsap.svg" alt="ic">
+						<div>
+							<span class="text-whiteOp-400 text-sm">
+								Email us
+							</span>
+							<p class="text-white font-bold text-sm">
+								mail@avalonbali.com
+							</p>
+						</div>
+					</a>
+				</div>
+				<ul class="flex gap-[5px] mb-5">
+					<li>
+						<a href="#">
+							<img src="../../img/index/whatsap-link.svg" alt="ic">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../../img/index/instagram.svg" alt="ic">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../../img/index/facebook.svg" alt="ic">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../../img/index/youtube.svg" alt="ic">
+						</a>
+					</li>
+				</ul>
 			</div>
-			<ul class="flex gap-[5px] mb-5">
-				<li>
-					<a href="#">
-						<img src="../../img/index/whatsap-link.svg" alt="ic">
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="../../img/index/instagram.svg" alt="ic">
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="../../img/index/facebook.svg" alt="ic">
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="../../img/index/youtube.svg" alt="ic">
-					</a>
-				</li>
-			</ul>
-		</div>
 
+			<form action="" class="flex flex-col p-5 border border-whiteOp-300 rounded-2xl text-center md:p-12 relative mb-14 md:mb-0">
+				<img src="../img/index/dot-decor-2.png" class="absolute right-[-1px] bottom-[-1px] w-5 md:w-8" alt="decor">
+				<h2 class="font-bold text-white text-2xl mb-4 md:text-3xl md:mb-7">
+					Хотите узнать больше?
+				</h2>
+				<div class="flex flex-col gap-5">
+					<input type="text" placeholder="Имя" class="bg-whiteOp-200 rounded-xl text-white text-sm p-5 outline-none md:p-6 md:text-base w-full">
+					<input type="number" placeholder="999-99-9999" class="bg-whiteOp-200 rounded-xl text-white text-sm p-5 outline-none md:p-6 md:text-base w-full">
+					<button type="submit" class="p-5 w-full text-blue-500 text-sm font-bold bg-white rounded-xl hover:bg-blue-400 hover:text-white transition-all md:p-6 md:text-base">
+						Отправить заявку
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="bg-blue-500 py-7 md:py-2">
+		<div class="container">
+			<div class="flex items-center justify-between gap-8">
+				<img src="../../img/index/a-footer.png" class="max-w-[96px] md:hidden" alt="ph">
+				<ul class="md:flex md:items-center md:gap-4 md:justify-center md:w-full">
+					<li class="text-whiteOp-400 text-xs mb-2">
+						<p >
+							© 2024 PT Avalon Group Bali
+						</p>
+					</li>
+					<li class="text-whiteOp-400 text-xs mb-2">
+						<a href="#" class="hover:text-blue-400 transition-all">
+							Privacy Policy
+						</a>
+					</li>
+					<li class="text-whiteOp-400 text-xs mb-2">
+						<a href="#" class="hover:text-blue-400 transition-all">
+							Terms & Conditions
+						</a>
+					</li>
+					<li class="text-whiteOp-400 text-xs mb-2">
+						<a href="#" class="hover:text-blue-400 transition-all">
+							Сотрудничество
+						</a>
+					</li>
+					<li class="text-whiteOp-400 text-xs mb-2">
+						<a href="#" class="hover:text-blue-400 transition-all">
+							Карьера
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </footer>
 

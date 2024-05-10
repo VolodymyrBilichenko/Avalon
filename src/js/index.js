@@ -85,3 +85,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 })
+
+
+// burger menu 
+
+document.getElementById('burgerBtn').addEventListener('click', function() {
+    document.getElementById('burgerMenu').classList.toggle('hidden');
+});
+
+const toggleProjects = document.getElementById('toggleProjects');
+const projectsBody = document.getElementById('projectsBody');
+
+toggleProjects.addEventListener('click', function() {
+    projectsBody.classList.toggle('hidden');
+});
