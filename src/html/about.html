@@ -41,19 +41,33 @@
 
 <section class="gallery py-14">
     <div class="container">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4">
-            <img src="../img/about/gallery-ph-1.png" class="rounded-2xl" alt="ph">
-            <img src="../img/about/gallery-ph-2.png" class="rounded-2xl" alt="ph">
-            <img src="../img/about/gallery-ph-3.png" class="rounded-2xl" alt="ph">
-            <img src="../img/about/gallery-ph-4.png" class="rounded-2xl" alt="ph">
-            <img src="../img/about/gallery-ph-5.png" class="rounded-2xl" alt="ph">
-            <img src="../img/about/gallery-ph-6.png" class="rounded-2xl" alt="ph">
-            <img src="../img/about/gallery-ph-7.png" class="rounded-2xl" alt="ph">
+        <div class=" grid gap-4 grid-cols-3 md:grid-cols-2">
+            <img src="../img/about/gallery-ph-1.png" class="rounded-2xl flex items-center justify-center" alt="ph">
+            <img src="../img/about/gallery-ph-2.png" class="rounded-2xl flex items-center justify-center" alt="ph">
+            <img src="../img/about/gallery-ph-3.png" class="rounded-2xl flex items-center justify-center" alt="ph">
+            <img src="../img/about/gallery-ph-4.png" class="rounded-2xl flex items-center justify-center" alt="ph">
+            <img src="../img/about/gallery-ph-5.png" class="rounded-2xl flex items-center justify-center" alt="ph">
+            <img src="../img/about/gallery-ph-6.png" class="rounded-2xl flex items-center justify-center" alt="ph">
+            <img src="../img/about/gallery-ph-7.png" class="rounded-2xl flex items-center justify-center" alt="ph">
         </div>
 
         <button type="button" class="font-bold text-white text-sm w-full max-w-[205px] mt-5 border border-white rounded-xl p-4 m-auto flex justify-center hover:text-blue-400 hover:bg-white transition-all md:mt-7 md:p-6 md:max-w-[286px] md:text-base">
             Показать альбом
         </button>
+
+        <div class="grid md:grid-cols-2 gap-4">
+            <div class="aspect-ratio-16/9 bg-gray-300 flex items-center justify-center">
+                <img src="../img/about/gallery-ph-7.png" alt="Image 1" class="w-full h-full object-cover" />
+            </div>
+            <div class="grid grid-cols-2 gap-4 md:grid-cols-3">
+                <div class="aspect-ratio-16/9 bg-gray-300 flex items-center justify-center">
+                    <img src="../img/about/gallery-ph-7.png" alt="Image 2" class="w-full h-full object-cover" />
+                </div>
+                <div class="aspect-ratio-16/9 bg-gray-300 flex items-center justify-center">
+                    <img src="../img/about/gallery-ph-7.png" alt="Image 3" class="w-full h-full object-cover" />
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -110,35 +124,200 @@
     </div>
 </section>
 
-<section class="bg-[url('../img/about/bgd-sec-changy.jpg')] bg-no-repeat bg-cover">
+<section class="bg-[url('../img/about/bgd-sec-changy.jpg')] bg-no-repeat bg-cover py-14 md:py-24">
     <div class="container">
-        <div class="bg-[url('../img/about/changy-bgd.png')] bg-no-repeat bg-cover">
-            <h2>
-                Чангу
-            </h2>
-            <strong>
-                Лучшее место <br>
-                <span>
+        <div class="bg-[url('../img/about/changy-bgd.png')] lg:bg-[url('../img/about/chang-bgd.png')] bg-no-repeat bg-cover pt-14 pb-9 px-5 relative md:px-10 lg:flex lg:items-center lg:gap-7 lg:py-24 lg:pr-[82px] lg:pl-[125px]">
+            <img src="../img/about/phone-mob.png" class="absolute top-[-40px] right-[-30px] lg:hidden" alt="ph">
+            <div>
+                <h2 class="font-bold text-white text-3xl mb-7">
+                    Чангу
+                </h2>
+                <strong class="font-bold text-white text-lg uppercase">
+                    Лучшее место
+                </strong>
+                <span class="block font-bold text-sm text-white mb-5">
                     для инвестиций на Бали
                 </span>
-            </strong>
-            <p>
-                В 2019 году Forbes поставил Чангу на 41-е место в ТОп-местах на планете для жизни и инвестирования.
-            </p>
+                <p class="text-white text-sm mb-5 max-w-[225px]">
+                    В 2019 году Forbes поставил Чангу на 41-е место в ТОп-местах на планете для жизни и инвестирования.
+                </p>
+    
+                <div class="p-5 border border-blue-400 rounded-[20px] mb-5">
+                    <p class="text-white text-sm">
+                        Чангу: кусочек рая не только для туристов и эмигрантов, но и  для инвесторов.
+                    </p>
+                </div>
+    
+                <ul class="max-w-[225px] lg:max-w-none">
+                    <li class="flex items-center gap-[10px] md:gap-[20px] mb-4 md:mb-5">
+                        <img src="../img/about/galka.svg" class="max-w-[15px] md:max-w-none" alt="ic">
+                        <p class="text-white text-sm md:text-base">
+                            Чангу является одной из главных инвестиционных достопримечательностей на рынке курортной недвижимости Бали.
+                        </p>
+                    </li>
+                    <li class="flex items-center gap-[10px] md:gap-[20px] mb-4 md:mb-5">
+                        <img src="../img/about/galka.svg" class="max-w-[15px] md:max-w-none" alt="ic">
+                        <p class="text-white text-sm md:text-base">
+                            Средняя заполняемость в Чангу от 70%
+                        </p>
+                    </li>
+                    <li class="flex items-center gap-[10px] md:gap-[20px] mb-4 md:mb-5">
+                        <img src="../img/about/galka.svg" class="max-w-[15px] md:max-w-none" alt="ic">
+                        <p class="text-white text-sm md:text-base">
+                            Среднегодовой рост стоимости недвижимости в этом районе составляет 20% 
+                        </p>
+                    </li>
+                    <li class="flex items-center gap-[10px] md:gap-[20px] mb-4 md:mb-5">
+                        <img src="../img/about/galka.svg" class="max-w-[15px] md:max-w-none" alt="ic">
+                        <p class="text-white text-sm md:text-base">
+                            За 4 года стоимость земли выросла более чем на 300%
+                        </p>
+                    </li>
+                    <li class="flex items-center gap-[10px] md:gap-[20px] mb-4 md:mb-5">
+                        <img src="../img/about/galka.svg" class="max-w-[15px] md:max-w-none" alt="ic">
+                        <p class="text-white text-sm md:text-base">
+                            Среднегодовая арендная плата увеличилась на 15% в год
+                        </p>
+                    </li>
+                    <li class="flex items-center gap-[10px] md:gap-[20px] mb-4 md:mb-5">
+                        <img src="../img/about/galka.svg" class="max-w-[15px] md:max-w-none" alt="ic">
+                        <p class="text-white text-sm md:text-base">
+                            Количество запросов на недвижимость в Чангу растет на 30-40% в год
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <img src="../img/about/tel-desk.png" class="hidden lg:block" alt="ph">
         </div>
     </div>
 </section>
 
 <section class="map py-14 md:py-24">
     <div class="container">
-        <h2 class="font-bold text-white text-3xl text-center mb-8">
+        <h2 class="font-bold text-white text-3xl text-center mb-8 lg:hidden">
             Топовая локация
         </h2>
 
-        <div>
-            
+        <div class="overflow-hidden rounded-2xl mb-7 lg:mb-0 lg:rounded-none lg:rounded-t-2xl">
+            <img src="../img/about/map.jpg" class="scale-150 lg:scale-100" alt="map ph">
+            <a href="#" class="flex relative z-10 gap-[5px] p-3 bg-blue-400 font-bold text-white text-xs justify-center md:text-base md:gap-2">
+                <img src="../img/about/location.svg" class="max-w-[15px] md:max-w-none" alt="location ic">
+                Посмотреть локацию в Google Maps
+            </a>
+        </div>
+        <div class="lg:flex lg:items-center lg:justify-between lg:gap-5 lg:py-10 lg:px-7 lg:border lg:border-whiteOp-300 lg:rounded-b-2xl lg:mt-[-1px]">
+            <p class="mb-5 text-white text-base text-center md:text-xl lg:text-left lg:m-0">
+                Если вы на острове,
+                мы с радостью проведём вам экскурсию по объекту!
+            </p>
+            <button type="button" class="w-full max-w-[270px] flex justify-center m-auto text-blue-600 text-sm font-bold p-4 rounded-xl bg-white md:text-base md:p-6 md:max-w-[362px] hover:bg-blue-400 hover:text-white transition-all">
+                Записаться на просмотр
+            </button>
         </div>
     </div>
+</section>
+
+<section class="bg-[url('../img/about/apartment-bgd.jpg')] bg-no-repeat bg-cover py-14 md:py-24">
+    <div class="container">
+        <div class="bg-blue-600 py-10 px-5">
+            <div>swiper</div>
+
+            <div class="mb-8 md:mb-12">
+                <h2 class="font-bold text-white text-3xl mb-[10px] md:text-[56px] md:mb-7">
+                    Апартаменты
+                </h2>
+                <p class="text-blue-400 text-lg md:text-xl">
+                    От 110 000$
+                    <span class="text-whiteOp-400 text-xs ">
+                        *включая налоги
+                    </span>
+                </p>
+            </div>
+
+            <div class="flex items-center gap-4 mb-7 md:mb-12">
+                <div class="border border-blue-400 p-4 rounded-2xl">
+                    <h3 class="font-bold text-white mb-2 md:text-xl md:mb-4">
+                        42 м²
+                    </h3>
+                    <p class="text-white text-sm md:text-base">
+                        площадь земли
+                    </p>
+                </div>
+                <div class="border border-blue-400 p-4 rounded-2xl">
+                    <h3 class="font-bold text-white mb-2 md:text-xl md:mb-4">
+                        4
+                    </h3>
+                    <p class="text-white text-sm md:text-base">
+                        количество этажей
+                    </p>
+                </div>
+            </div>
+
+            <ul>
+                <li>
+                    <h3 class="font-bold text-white mb-2 md:text-xl md:mb-4 before:block before:h-[6px] before:w-[6px] before:rounded-sm before:bg-blue-400 flex items-center before:mr-2">
+                        3 м²
+                    </h3>
+                    <p class="text-white text-sm md:text-base">
+                        площадь прихожей
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="cost py-14 md:py-24">
+    <div class="container">
+        <h2 class="font-bold text-white text-3xl mb-8 md:mb-12 md:text-center md:text-[56px]">
+            Что входит в стоимость
+        </h2>
+
+        <div class="lg:grid grid-cols-3 gap-5">
+
+            <div class="flex items-center gap-5 py-7 border-t border-whiteOp-300 lg:gap-7 lg:py-14 lg:px-10 lg:border lg:rounded-2xl">
+                <img src="../img/about/cost-ic-1.svg" class="max-w-[40px] md:max-w-none" alt="ic">
+                <p class="text-white text-sm md:text-base">
+                    Полное юридическое сопровождение
+                </p>
+            </div>
+            <div class="flex items-center gap-5 py-7 border-t border-whiteOp-300 lg:gap-7 lg:py-14 lg:px-10 lg:border lg:rounded-2xl">
+                <img src="../img/about/cost-ic-2.svg" class="max-w-[40px] md:max-w-none" alt="ic">
+                <p class="text-white text-sm md:text-base">
+                    Проектирование и разработка дизайн проектов
+                </p>
+            </div>
+            <div class="flex items-center gap-5 py-7 border-t border-whiteOp-300 lg:gap-7 lg:py-14 lg:px-10 lg:border lg:rounded-2xl">
+                <img src="../img/about/cost-ic-3.svg" class="max-w-[40px] md:max-w-none" alt="ic">
+                <p class="text-white text-sm md:text-base">
+                    Строительство и технический надзор обьекта
+                </p>
+            </div>
+            <div class="flex items-center gap-5 py-7 border-t border-whiteOp-300 lg:gap-7 lg:py-14 lg:px-10 lg:border lg:rounded-2xl">
+                <img src="../img/about/cost-ic-4.svg" class="max-w-[40px] md:max-w-none" alt="ic">
+                <p class="text-white text-sm md:text-base">
+                    Внутренняя отделка и мебелирование
+                </p>
+            </div>
+            <div class="flex items-center gap-5 py-7 border-t border-whiteOp-300 lg:gap-7 lg:py-14 lg:px-10 lg:border lg:rounded-2xl">
+                <img src="../img/about/cost-ic-5.svg" class="max-w-[40px] md:max-w-none" alt="ic">
+                <p class="text-white text-sm md:text-base">
+                    Разработка бизнес-плана по управлению объектом после сдачи
+                </p>
+            </div>
+            <div class="flex items-center gap-5 py-7 border-t border-b border-whiteOp-300 lg:gap-7 lg:py-14 lg:px-10 lg:border lg:rounded-2xl">
+                <img src="../img/about/cost-ic-6.svg" class="max-w-[40px] md:max-w-none" alt="ic">
+                <p class="text-white text-sm md:text-base">
+                    Консультирование по открытию компании, расчетного счета, рабочих виз
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="photo">
+    <img src="../img/about/sec-photo.jpg" alt="ph">
 </section>
 
 @@include('blocks/footer.html')
