@@ -4,6 +4,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      grayscale: {
+        100: '100%',
+      },
       fontFamily: {
         normalidad: ['Grandis Extended', 'sans-serif'],
       },

@@ -28,3 +28,27 @@
 .text-content p {
     max-width: 1047px;
 }
+
+@media screen and (min-width: 768px) {
+    .swiper-banner .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal .swiper-pagination-bullet-active {
+        position: relative;
+    }
+    .swiper-banner .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal .swiper-pagination-bullet-active::after {
+        content: "";
+        position: absolute;
+        right: 40%;
+        top: -50px;
+        transform: translateX(-50%);
+        background: white;
+        width: 1px;
+        height: 35px;
+    }
+    .swiper-banner .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+        position: absolute;
+        transform: rotate(90deg);
+        height: 100px;
+        right: -48%;
+        left: auto;
+        bottom: 42%;
+    }
+}

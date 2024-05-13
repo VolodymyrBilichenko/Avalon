@@ -2,6 +2,28 @@ AOS.init({
     once: true
 });
 
+new Swiper('.swiper.team', {
+    loop: true,
+    slidesPerView: 2,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    breakpoints: {
+        768: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+            pagination: false,
+            navigation: {
+                nextEl: '.button-next',
+                prevEl: '.button-prev',
+            },
+        }
+    }
+});
+
 const swiperNews = new Swiper('.swiper.else-news', {
     loop: true,
     slidesPerView: 1,
@@ -17,14 +39,14 @@ const swiperNews = new Swiper('.swiper.else-news', {
             spaceBetween: 20,
             pagination: false,
             navigation: {
-                nextEl: '.button-next',
-                prevEl: '.button-prev',
+                nextEl: ".button-next",
+                prevEl: ".button-prev",
             },
         }
     }
 });
 
-const swiperArticles = new Swiper('.swiper.else-articles', {
+new Swiper('.swiper.else-articles', {
     loop: true,
     slidesPerView: 1,
 
@@ -55,7 +77,7 @@ const swiperArticles = new Swiper('.swiper.else-articles', {
     }
 });
 
-const swiperBanner = new Swiper('.swiper.swiper-banner', {
+new Swiper('.swiper.swiper-banner', {
     loop: true,
     slidesPerView: 1,
 
