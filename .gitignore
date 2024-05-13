@@ -1,6 +1,8 @@
 node_modules
 build/
 /build
+build
 /src/scss/blocks/_output.scss
 src/scss/blocks/_output.scss
 build/css/main.css
+_output.scss
