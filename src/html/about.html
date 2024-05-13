@@ -219,8 +219,35 @@
 
 <section class="bg-[url('../img/about/apartment-bgd.jpg')] bg-no-repeat bg-cover py-14 md:py-24">
     <div class="container">
-        <div class="bg-blue-600 py-10 px-5">
-            <div>swiper</div>
+        <div class="bg-blue-600 py-10 px-5 rounded-2xl relative">
+
+            <div class="min-w-[84px] h-[84px] bg-blue-400 text-center rounded-full flex justify-center items-center flex-col before:border before:border-blue-400 before:rounded-full before:w-[98px] before:h-[98px] before:absolute before:top-[-7px] before:left-[-7px] absolute top-[-45px] left-[20px] z-10">
+                <p class="text-white text-xs">
+                    Roi
+                </p>
+                <span class="text-white font-bold text-lg">
+                    16%
+                </span>
+            </div>
+            <div class="swiper mySwiper-about relative">
+                <a href="#" class="absolute top-2 right-2 z-10">
+                    <img src="../img/about/360.png" class="max-w-[95px]" alt="ph">
+                </a>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../img/about/about-slide-1.jpg" class="rounded-xl" alt="ph">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/about/about-slide-1.jpg" class="rounded-xl" alt="ph">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../img/about/about-slide-1.jpg" class="rounded-xl" alt="ph">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
 
             <div class="mb-8 md:mb-12">
                 <h2 class="font-bold text-white text-3xl mb-[10px] md:text-[56px] md:mb-7">
@@ -235,7 +262,7 @@
             </div>
 
             <div class="flex items-center gap-4 mb-7 md:mb-12">
-                <div class="border border-blue-400 p-4 rounded-2xl">
+                <div class="border border-blue-400 p-4 rounded-2xl w-full">
                     <h3 class="font-bold text-white mb-2 md:text-xl md:mb-4">
                         42 м²
                     </h3>
@@ -243,7 +270,7 @@
                         площадь земли
                     </p>
                 </div>
-                <div class="border border-blue-400 p-4 rounded-2xl">
+                <div class="border border-blue-400 p-4 rounded-2xl w-full">
                     <h3 class="font-bold text-white mb-2 md:text-xl md:mb-4">
                         4
                     </h3>
@@ -253,13 +280,37 @@
                 </div>
             </div>
 
-            <ul>
-                <li>
+            <ul class="grid grid-cols-2 gap-5">
+                <li class="border-b border-whiteOp-300 pb-4">
                     <h3 class="font-bold text-white mb-2 md:text-xl md:mb-4 before:block before:h-[6px] before:w-[6px] before:rounded-sm before:bg-blue-400 flex items-center before:mr-2">
                         3 м²
                     </h3>
                     <p class="text-white text-sm md:text-base">
                         площадь прихожей
+                    </p>
+                </li>
+                <li class="border-b border-whiteOp-300 pb-4">
+                    <h3 class="font-bold text-white mb-2 md:text-xl md:mb-4 before:block before:h-[6px] before:w-[6px] before:rounded-sm before:bg-blue-400 flex items-center before:mr-2">
+                        7 м²
+                    </h3>
+                    <p class="text-white text-sm md:text-base">
+                        площадь кухни
+                    </p>
+                </li>
+                <li class="border-b border-whiteOp-300 pb-4">
+                    <h3 class="font-bold text-white mb-2 md:text-xl md:mb-4 before:block before:h-[6px] before:w-[6px] before:rounded-sm before:bg-blue-400 flex items-center before:mr-2">
+                        5 м²
+                    </h3>
+                    <p class="text-white text-sm md:text-base">
+                        площадь санузла
+                    </p>
+                </li>
+                <li class="border-b border-whiteOp-300 pb-4">
+                    <h3 class="font-bold text-white mb-2 md:text-xl md:mb-4 before:block before:h-[6px] before:w-[6px] before:rounded-sm before:bg-blue-400 flex items-center before:mr-2">
+                        22 м²
+                    </h3>
+                    <p class="text-white text-sm md:text-base">
+                        площадь спальни /гостиной
                     </p>
                 </li>
             </ul>
