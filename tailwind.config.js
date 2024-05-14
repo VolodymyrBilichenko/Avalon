@@ -13,6 +13,9 @@ module.exports = {
       transitionDuration: {
         'DEFAULT': '300ms',
       },
+      screens: {
+        '3xl': '1770px',
+      },
       container: {
         center: true,
         padding: "30px",
@@ -22,7 +25,6 @@ module.exports = {
           'lg': 'none',
           'xl': 'none',
           '2xl': '1560px',
-          '3xxl': '1700px',
         },
         maxWidth: {
           'none': 'none',
@@ -31,7 +33,6 @@ module.exports = {
           'lg': 'none',
           'xl': 'none',
           '2xl': 'none',
-          '3xxl': 'none',
         }
       },
       colors: {

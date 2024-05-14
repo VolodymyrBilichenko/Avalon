@@ -18,134 +18,80 @@
 
 	<header class="bg-blue-500 py-4 fixed top-0 left-0 w-full border-b border-b-whiteOp-300 z-30 xl:bg-transparent xl:border-none">
 		<div class="container xl:max-w-[1920px]">
-			<div class="header__inner flex items-center justify-between relative">
+			<div class="header__inner flex items-center justify-between gap-3 relative">
 				<a href="../index.html">
-					<img src="../../img/index/logo-desk.png" class="hidden xl:block" alt="logo">
+					<img src="../../img/index/logo-desk.png" class="hidden xl:min-w-[80px] xl:block" alt="logo">
 					<img src="../../img/icons/logo-mob.svg" class="xl:hidden" alt="logo ic">
 				</a>
-				<button id="burgerBtn" type="button" class="xl:hidden">
-					<img src="../../img/icons/burder.svg" alt="burger ic">
-				</button>
-				<div id="burgerMenu" class="burger__body hidden absolute top-[47px] left-0 bg-blue-500 w-[calc(100%_+_60px)] -ml-[30px] flex-col flex text-center pt-12 pb-8 text-white text-lg">
-					<div class="burger__proj mb-8">
-						<p id="toggleProjects" class="hover:text-blue-400 transition-all cursor-pointer">
-							Проекты
-						</p>
-						<div id="projectsBody" class="burger__proj_body mt-8 flex flex-col hidden">
-							<a href="#" class="mb-8 hover:text-blue-400 transition-all">
-								BUDDHA | Club House
-							</a>
-							<a href="#" class="mb-8 hover:text-blue-400 transition-all">
-								OM | Club House
-							</a>
-							<a href="#" class=" hover:text-blue-400 transition-all">
-								JUST Club House
-							</a>
-						</div>
-					</div>
-					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
-						Про компанию
-					</a>
-					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
-						Почему Бали?
-					</a>
-					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
-						Агентам
-					</a>
-					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
-						Вакансии
-					</a>
-					<a href="#" class=" hover:text-blue-400 transition-all">
-						Контакты
-					</a>
-					<div class="mt-12 pt-7 border-t border-whiteOp-300 flex flex-col gap-4">
-						<a href="tel:+6281246502783" class="hover:text-blue-400 transition-all font-bold text-white text-base">+62 (812) 4650-27-83</a>
-	
-						<button type="button" class="py-4 w-full text-white text-xs font-bold max-w-56 m-auto border border-white rounded-xl transition-all hover:bg-white hover:text-blue-400">
-							Запланировать встречу
-						</button>
-					</div>
-					<div class="mt-12 pt-7 border-t border-whiteOp-300 flex gap-11 justify-center">
-						<ul class="flex items-center gap-4">
-							<li >
-								<a href="#" class="hover:text-blue-400 transition-all text-white text-base">
-									EN
-								</a>
-							</li>
-							<li >
-								<a href="#" class="hover:text-blue-400 transition-all text-white text-base">
-									UA
-								</a>
-							</li>
-							<li >
-								<a href="#" class="hover:text-blue-400 transition-all text-white text-base">
-									RU
-								</a>
-							</li>
-						</ul>
-						<ul class="flex items-center gap-1">
-							<li>
-								<a href="#">
-									<img src="../../img/index/tw-burger.svg" alt="ic">
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="../../img/index/inst-burger.svg" alt="ic">
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="../../img/index/face-burger.svg" alt="ic">
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="../../img/index/yout-burger.svg" alt="ic">
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
+				
 				
 				<div class="items-center gap-10 hidden xl:flex">
 					<div class="relative ">
-						<button type="button" class="projectsButton flex items-center gap-1 text-white text-sm">
+						<button type="button" class="projectsButton flex items-center gap-1 text-white text-sm
+							before:block before:w-0 hover:before:w-2/3 before:h-[1px] before:bg-white before:absolute before:bottom-[-5px] before:left-0 before:transition-all before:duration-300
+							after:block after:w-0 hover:after:w-2/3 after:h-[1px] after:bg-white after:absolute after:bottom-[-9px] after:right-0 after:transition-all after:duration-300
+						">
 							Проекты 
 							<img src="../../img/index/small-arrow-white.png" alt="ic">
 						</button>
 						<div class="projectsMenu flex flex-col p-6 rounded-xl bg-blue-500 absolute top-[30px] left-0 border border-whiteOp-300 hidden">
-							<a href="#" class="text-white text-sm mb-4 whitespace-nowrap">
+							<a href="#" class="text-white text-sm mb-4 whitespace-nowrap relative
+								before:block before:w-0 hover:before:w-2/3 before:h-[1px] before:bg-white before:absolute before:bottom-[-5px] before:left-0 before:transition-all before:duration-300
+								after:block after:w-0 hover:after:w-2/3 after:h-[1px] after:bg-white after:absolute after:bottom-[-9px] after:right-0 after:transition-all after:duration-300
+							">
 								BUDDHA | Club House
 							</a>
-							<a href="#" class="text-white text-sm mb-4">
+							<a href="#" class="text-white text-sm mb-4 relative
+								before:block before:w-0 hover:before:w-2/3 before:h-[1px] before:bg-white before:absolute before:bottom-[-5px] before:left-0 before:transition-all before:duration-300
+								after:block after:w-0 hover:after:w-2/3 after:h-[1px] after:bg-white after:absolute after:bottom-[-9px] after:right-0 after:transition-all after:duration-300
+							">
 								OM | Club House
 							</a>
-							<a href="#" class="text-white text-sm">
+							<a href="#" class="text-white text-sm relative
+								before:block before:w-0 hover:before:w-2/3 before:h-[1px] before:bg-white before:absolute before:bottom-[-5px] before:left-0 before:transition-all before:duration-300
+								after:block after:w-0 hover:after:w-2/3 after:h-[1px] after:bg-white after:absolute after:bottom-[-9px] after:right-0 after:transition-all after:duration-300
+							">
 								JUST Club House
 							</a>
 						</div>
 					</div>
-					<a href="#" class="text-white text-sm">
+					<a href="#" class="text-white text-sm relative transition-all
+						before:block before:w-0 hover:before:w-2/3 before:h-[1px] before:bg-white before:absolute before:bottom-[-5px] before:left-0 before:transition-all before:duration-300
+						after:block after:w-0 hover:after:w-2/3 after:h-[1px] after:bg-white after:absolute after:bottom-[-9px] after:right-0 after:transition-all after:duration-300
+					">
 						Про компанию
 					</a>
-					<a href="#" class="text-white text-sm">
+					<a href="#" class="text-white text-sm relative
+						before:block before:w-0 hover:before:w-2/3 before:h-[1px] before:bg-white before:absolute before:bottom-[-5px] before:left-0 before:transition-all before:duration-300
+						after:block after:w-0 hover:after:w-2/3 after:h-[1px] after:bg-white after:absolute after:bottom-[-9px] after:right-0 after:transition-all after:duration-300
+					">
 						Почему Бали?
 					</a>
-					<a href="#" class="text-white text-sm">
+					<a href="#" class="text-white text-sm relative
+						before:block before:w-0 hover:before:w-2/3 before:h-[1px] before:bg-white before:absolute before:bottom-[-5px] before:left-0 before:transition-all before:duration-300
+						after:block after:w-0 hover:after:w-2/3 after:h-[1px] after:bg-white after:absolute after:bottom-[-9px] after:right-0 after:transition-all after:duration-300
+					">
 						Сотрудничество
 					</a>
-					<a href="#" class="text-white text-sm">
+					<a href="#" class="text-white text-sm relative
+						before:block before:w-0 hover:before:w-2/3 before:h-[1px] before:bg-white before:absolute before:bottom-[-5px] before:left-0 before:transition-all before:duration-300
+						after:block after:w-0 hover:after:w-2/3 after:h-[1px] after:bg-white after:absolute after:bottom-[-9px] after:right-0 after:transition-all after:duration-300
+					">
 						Карьера
 					</a>
-					<a href="#" class="text-white text-sm">
+					<a href="#" class="text-white text-sm relative
+						before:block before:w-0 hover:before:w-2/3 before:h-[1px] before:bg-white before:absolute before:bottom-[-5px] before:left-0 before:transition-all before:duration-300
+						after:block after:w-0 hover:after:w-2/3 after:h-[1px] after:bg-white after:absolute after:bottom-[-9px] after:right-0 after:transition-all after:duration-300
+					">
 						Контакты
 					</a>
 				</div>
-				<button type="button" class="w-full max-w-[250px] border border-whiteOp-400 rounded-xl p-4 text-white text-sm font-bold hover:bg-white hover:text-blue-400 hover:border-white transition-all hidden xl:flex xl:justify-center">
+
+				
+				<button type="button" class="3xl:flex hidden w-full max-w-[250px] border border-whiteOp-400 rounded-xl p-4 text-white text-sm font-bold hover:bg-white hover:text-blue-400 hover:border-white transition-all xl:justify-center">
 					Запланировать встречу
 				</button>
-				<a href="tel:+6281246502783" class="hidden items-center gap-1 text-white text-base font-bold ">
+				<a href="tel:+6281246502783" class="3xl:flex hidden items-center gap-1 text-white text-base font-bold ">
 					<img src="../../img/index/whatsapp.png" alt="ic">
 					+62 (812) 4650-27-83
 				</a>
@@ -189,6 +135,92 @@
 							<path d="M18.6488 2.31398C18.4327 1.51072 17.7994 0.877518 16.9963 0.661224C15.529 0.259766 9.65993 0.259766 9.65993 0.259766C9.65993 0.259766 3.79105 0.259766 2.32381 0.646004C1.53611 0.862068 0.887344 1.51083 0.67128 2.31398C0.285156 3.78111 0.285156 6.82375 0.285156 6.82375C0.285156 6.82375 0.285156 9.88173 0.67128 11.3335C0.887573 12.1367 1.52066 12.7699 2.32392 12.9862C3.8065 13.3877 9.66016 13.3877 9.66016 13.3877C9.66016 13.3877 15.529 13.3877 16.9963 13.0015C17.7995 12.7853 18.4327 12.1521 18.649 11.349C19.035 9.88173 19.035 6.8392 19.035 6.8392C19.035 6.8392 19.0505 3.78111 18.6488 2.31398ZM7.79134 9.63465V4.01286L12.6718 6.82375L7.79134 9.63465Z"/>
 						</svg>
 					</a>
+				</div>
+
+				<button id="burgerBtn" type="button" class="3xl:hidden block">
+					<img src="../../img/icons/burder.svg" class="min-w-[28px]" alt="burger ic">
+				</button>
+				<div id="burgerMenu" class="burger__body hidden absolute top-[47px] left-0 bg-blue-500 w-[calc(100%_+_60px)] -ml-[30px] flex-col flex text-center pt-12 pb-8 text-white text-lg xl:top-[100px]">
+					<div class="burger__proj mb-8">
+						<p id="toggleProjects" class="flex items-center gap-1 justify-center hover:text-blue-400 transition-all cursor-pointer">
+							Проекты
+							<img src="../../img/index/small-arrow-white.png" alt="">
+						</p>
+						<div id="projectsBody" class="burger__proj_body mt-8 flex flex-col hidden">
+							<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+								BUDDHA | Club House
+							</a>
+							<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+								OM | Club House
+							</a>
+							<a href="#" class=" hover:text-blue-400 transition-all">
+								JUST Club House
+							</a>
+						</div>
+					</div>
+					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+						Про компанию
+					</a>
+					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+						Почему Бали?
+					</a>
+					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+						Агентам
+					</a>
+					<a href="#" class="mb-8 hover:text-blue-400 transition-all">
+						Вакансии
+					</a>
+					<a href="#" class=" hover:text-blue-400 transition-all">
+						Контакты
+					</a>
+					<div class="mt-12 pt-7 border-t border-whiteOp-300 flex flex-col gap-4">
+						<a href="tel:+6281246502783" class="hover:text-blue-400 transition-all font-bold text-white text-base">+62 (812) 4650-27-83</a>
+	
+						<button type="button" class="py-4 w-full text-white text-xs font-bold max-w-56 m-auto border border-white rounded-xl transition-all hover:bg-white hover:text-blue-400">
+							Запланировать встречу
+						</button>
+					</div>
+					<div class="flex xl:hidden mt-12 pt-7 border-t border-whiteOp-300 gap-11 justify-center">
+						<ul class="flex items-center gap-4">
+							<li >
+								<a href="#" class="hover:text-blue-400 transition-all text-white text-base">
+									EN
+								</a>
+							</li>
+							<li >
+								<a href="#" class="hover:text-blue-400 transition-all text-white text-base">
+									UA
+								</a>
+							</li>
+							<li >
+								<a href="#" class="hover:text-blue-400 transition-all text-white text-base">
+									RU
+								</a>
+							</li>
+						</ul>
+						<ul class="flex items-center gap-1">
+							<li>
+								<a href="#">
+									<img src="../../img/index/tw-burger.svg" alt="ic">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../img/index/inst-burger.svg" alt="ic">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../img/index/face-burger.svg" alt="ic">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../img/index/yout-burger.svg" alt="ic">
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
