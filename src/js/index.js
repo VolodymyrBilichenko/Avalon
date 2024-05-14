@@ -130,6 +130,45 @@ document.getElementById('burgerBtn').addEventListener('click', function() {
     document.getElementById('burgerMenu').classList.toggle('hidden');
 });
 
+// header project
+
+document.addEventListener('DOMContentLoaded', function() {
+    const buttons = document.querySelectorAll('.projectsButton');
+    const menus = document.querySelectorAll('.projectsMenu');
+
+    buttons.forEach((button, index) => {
+        const menu = menus[index];
+
+        button.addEventListener('click', function() {
+            menu.classList.toggle('hidden');
+        });
+
+        document.addEventListener('click', function(event) {
+            if (!button.contains(event.target) && !menu.contains(event.target)) {
+                menu.classList.add('hidden');
+            }
+        });
+    });
+});
+
+// scroll header
+
+document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector("header");
+
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 0) {
+        header.classList.add("bg-blue-500", "border-b", "border-b-whiteOp-300");
+        header.classList.remove("xl:bg-transparent", "xl:border-none");
+      } else {
+        header.classList.remove("bg-blue-500", "border-b", "border-b-whiteOp-300");
+        header.classList.add("xl:bg-transparent", "xl:border-none");
+      }
+    });
+  });
+
+//
+
 const toggleProjects = document.getElementById('toggleProjects');
 const projectsBody = document.getElementById('projectsBody');
 

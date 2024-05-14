@@ -22,7 +22,7 @@ module.exports = {
           'lg': 'none',
           'xl': 'none',
           '2xl': '1560px',
-          '3xl': '1700px',
+          '3xxl': '1700px',
         },
         maxWidth: {
           'none': 'none',
@@ -31,6 +31,7 @@ module.exports = {
           'lg': 'none',
           'xl': 'none',
           '2xl': 'none',
+          '3xxl': 'none',
         }
       },
       colors: {
