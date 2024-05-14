@@ -127,7 +127,10 @@ document.addEventListener('DOMContentLoaded', () => {
 // burger menu 
 
 document.getElementById('burgerBtn').addEventListener('click', function() {
+    const headers = document.querySelector("header");
+
     document.getElementById('burgerMenu').classList.toggle('hidden');
+    headers.classList.toggle("lgs:bg-blue-500", "lgs:border-b-2", "lgs:border-b-whiteOp-300");
 });
 
 // header project
@@ -159,10 +162,10 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
       if (window.scrollY > 0) {
         header.classList.add("bg-blue-500", "border-b", "border-b-whiteOp-300");
-        header.classList.remove("xl:bg-transparent", "xl:border-none");
+        header.classList.remove("lg:bg-transparent", "lg:border-none");
       } else {
         header.classList.remove("bg-blue-500", "border-b", "border-b-whiteOp-300");
-        header.classList.add("xl:bg-transparent", "xl:border-none");
+        header.classList.add("lg:bg-transparent", "lg:border-none");
       }
     });
   });

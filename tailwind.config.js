@@ -14,6 +14,7 @@ module.exports = {
         'DEFAULT': '300ms',
       },
       screens: {
+        'lgs': '1025px',
         '3xl': '1770px',
       },
       container: {
