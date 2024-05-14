@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
         header.classList.remove("lg:bg-transparent", "lg:border-none");
       } else {
         header.classList.remove("bg-blue-500", "border-b", "border-b-whiteOp-300");
-        header.classList.add("lg:bg-transparent", "lg:border-none");
+        header.classList.add("lg:bg-none", "lg:border-none");
       }
     });
   });

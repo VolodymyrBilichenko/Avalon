@@ -4103,6 +4103,10 @@ video {
     background-image: url('../img/index/buy-bg-desk.png');
   }
 
+  .lg\:bg-none {
+    background-image: none;
+  }
+
   .lg\:from-60\% {
     --tw-gradient-from-position: 60%;
   }
