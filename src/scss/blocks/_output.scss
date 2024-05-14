@@ -4144,6 +4144,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:block {
+    display: block;
+  }
+
   .xl\:hidden {
     display: none;
   }
