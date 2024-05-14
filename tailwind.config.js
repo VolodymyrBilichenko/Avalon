@@ -22,6 +22,7 @@ module.exports = {
           'lg': 'none',
           'xl': 'none',
           '2xl': '1560px',
+          '3xl': '1700px',
         },
         maxWidth: {
           'none': 'none',
