@@ -2132,6 +2132,38 @@ video {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\.\/img\/index\/slide-bgd-2\.jpg\'\)\] {
+  background-image: url('./img/index/slide-bgd-2.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/about\/apartment-bgd\.jpg\'\)\] {
+  background-image: url('./img/about/apartment-bgd.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/about\/bgd-sec-changy\.jpg\'\)\] {
+  background-image: url('./img/about/bgd-sec-changy.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/about\/changy-bgd\.png\'\)\] {
+  background-image: url('./img/about/changy-bgd.png');
+}
+
+.bg-\[url\(\'\.\/img\/icons\/bgd-blue-dor-rd\.svg\'\)\] {
+  background-image: url('./img/icons/bgd-blue-dor-rd.svg');
+}
+
+.bg-\[url\(\'\.\/img\/index\/buy-bgd\.jpg\'\)\] {
+  background-image: url('./img/index/buy-bgd.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/index\/buy-list-bg\.png\'\)\] {
+  background-image: url('./img/index/buy-list-bg.png');
+}
+
+.bg-\[url\(\'\.\/img\/index\/slide-bgd-1\.jpg\'\)\] {
+  background-image: url('./img/index/slide-bgd-1.jpg');
+}
+
 .from-blue-500 {
   --tw-gradient-from: #0A4A7F var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(10 74 127 / 0) var(--tw-gradient-to-position);
@@ -4228,6 +4260,14 @@ video {
 
   .lg\:bg-none {
     background-image: none;
+  }
+
+  .lg\:bg-\[url\(\'\.\/img\/about\/chang-bgd\.png\'\)\] {
+    background-image: url('./img/about/chang-bgd.png');
+  }
+
+  .lg\:bg-\[url\(\'\.\/img\/index\/buy-bg-desk\.png\'\)\] {
+    background-image: url('./img/index/buy-bg-desk.png');
   }
 
   .lg\:from-60\% {
