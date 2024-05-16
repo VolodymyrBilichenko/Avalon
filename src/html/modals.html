@@ -1,0 +1,56 @@
+@@include('blocks/header.html')
+
+<section class="pb-24 relative bg-blue-500 overflow-hidden">
+    <div class="container mt-48">
+        <div class="flex flex-wrap gap-3">
+            <button class="white-button open-modal" data-modal="vacancy">
+                Отклик на вакансию
+            </button>
+            <button class="white-button">
+                Получить презентацию
+            </button>
+            <button class="white-button">
+                Специальное предложение
+            </button>
+            <button class="white-button">
+                Специальное предложение 2
+            </button>
+            <button class="white-button">
+                Календарь
+            </button>
+        </div>
+    </div>
+</section>
+
+<div class="opacity-0 invisible transition-all modal fixed top-0 left-0 w-full h-full z-50 flex justify-center items-center modal-vacancy modal">
+    <div class="modal__bgd absolute top-0 left-0 bg-[#031523]/90 w-full h-full z-0">
+
+    </div>
+    <div class="modal__content relative z-10 bg-blue-500 rounded-[20px]">
+        <div class="modal__cross modal__close absolute -top-10 -right-4 cursor-pointer">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect opacity="0.2" x="0.5" y="0.5" width="29" height="29" rx="9.5" stroke="white" />
+                <g opacity="0.5">
+                    <rect x="8.05469" y="7" width="20.9207" height="1.49433" transform="rotate(45 8.05469 7)"
+                        fill="white" style="fill:white;fill-opacity:1;" />
+                    <rect x="7" y="21.9434" width="20.9207" height="1.49433" transform="rotate(-45 7 21.9434)"
+                        fill="white" style="fill:white;fill-opacity:1;" />
+                </g>
+            </svg>
+        </div>
+        <div class="content__inner z-10 relative overflow-hidden p-10">
+
+            <div class="absolute right-[-34px] top-5 z-0">
+                <img src="./img/icons/vector-logo.svg" class="w-[68px]" alt="vector-logo">
+            </div>
+            <div class="absolute left-[-34px] bottom-[154px] z-0">
+                <img src="./img/icons/vector-logo.svg" class="w-[68px]" alt="vector-logo">
+            </div>
+
+            <h2 class="text-white text-2xl font-bold text-center mb-5">Отклик на вакансию</h2>
+
+        </div>
+    </div>
+</div>
+
+@@include('blocks/footer.html')
