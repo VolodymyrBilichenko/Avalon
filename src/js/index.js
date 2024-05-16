@@ -189,8 +189,6 @@ const projectsBody = document.getElementById('projectsBody');
 toggleProjects.addEventListener('click', function() {
     projectsBody.classList.toggle('hidden');
 });
-<<<<<<< vlas
-=======
 
 
 // intelInput
@@ -208,4 +206,3 @@ window.intlTelInput(inputs, {
   strictMode: true,
   utilsScript: "/intl-tel-input/js/utils.js?1715508103106" // just for formatting/placeholders etc
 });
->>>>>>> main
