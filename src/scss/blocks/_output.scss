@@ -1060,6 +1060,38 @@ video {
   top: 100%;
 }
 
+.-left-36 {
+  left: -9rem;
+}
+
+.bottom-20 {
+  bottom: 5rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.bottom-\[1px\] {
+  bottom: 1px;
+}
+
+.bottom-\[5px\] {
+  bottom: 5px;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.bottom-16 {
+  bottom: 4rem;
+}
+
+.bottom-24 {
+  bottom: 6rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1533,6 +1565,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[70px\] {
+  width: 70px;
 }
 
 .min-w-11 {
@@ -2391,6 +2427,10 @@ video {
   padding-top: 1.75rem;
 }
 
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2532,6 +2572,13 @@ video {
   color: rgb(231 237 242 / var(--tw-text-opacity));
 }
 
+<<<<<<< vlas
+=======
+.text-white\/40 {
+  color: rgb(255 255 255 / 0.4);
+}
+
+>>>>>>> main
 .underline {
   text-decoration-line: underline;
 }
@@ -2599,6 +2646,12 @@ video {
 
 .grayscale {
   --tw-grayscale: grayscale(100%);
+  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+          filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.invert {
+  --tw-invert: invert(100%);
   -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
           filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -3000,9 +3053,15 @@ video {
   width: calc(100% - 300px);
 }
 
+<<<<<<< vlas
 .after\:w-full::after {
   content: var(--tw-content);
   width: 100%;
+=======
+.after\:w-\[130px\]::after {
+  content: var(--tw-content);
+  width: 130px;
+>>>>>>> main
 }
 
 .after\:-translate-x-2\/4::after {
@@ -3386,6 +3445,22 @@ video {
     margin-top: 410px;
   }
 
+  .md\:mb-\[10px\] {
+    margin-bottom: 10px;
+  }
+
+  .md\:mb-\[50px\] {
+    margin-bottom: 50px;
+  }
+
+  .md\:mb-\[30px\] {
+    margin-bottom: 30px;
+  }
+
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -3452,6 +3527,21 @@ video {
     height: 100%;
   }
 
+<<<<<<< vlas
+=======
+  .md\:h-\[137px\] {
+    height: 137px;
+  }
+
+  .md\:h-\[60px\] {
+    height: 60px;
+  }
+
+  .md\:h-\[70px\] {
+    height: 70px;
+  }
+
+>>>>>>> main
   .md\:w-14 {
     width: 3.5rem;
   }
@@ -3492,12 +3582,20 @@ video {
     width: 100%;
   }
 
+  .md\:w-\[70px\] {
+    width: 70px;
+  }
+
   .md\:min-w-16 {
     min-width: 4rem;
   }
 
   .md\:min-w-\[137px\] {
     min-width: 137px;
+  }
+
+  .md\:min-w-\[60px\] {
+    min-width: 60px;
   }
 
   .md\:max-w-56 {
@@ -3635,6 +3733,16 @@ video {
     row-gap: 3rem;
   }
 
+  .md\:gap-x-5 {
+    -webkit-column-gap: 1.25rem;
+       -moz-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+  }
+
+  .md\:gap-y-14 {
+    row-gap: 3.5rem;
+  }
+
   .md\:rounded-2xl {
     border-radius: 1rem;
   }
@@ -3649,6 +3757,10 @@ video {
 
   .md\:border-r {
     border-right-width: 1px;
+  }
+
+  .md\:border-b {
+    border-bottom-width: 1px;
   }
 
   .md\:border-whiteOp-300 {
@@ -3746,6 +3858,14 @@ video {
     padding-top: 16rem;
   }
 
+  .md\:pb-\[30px\] {
+    padding-bottom: 30px;
+  }
+
+  .md\:pl-\[70px\] {
+    padding-left: 70px;
+  }
+
   .md\:text-center {
     text-align: center;
   }
@@ -3839,6 +3959,47 @@ video {
     line-height: 1.25;
   }
 
+<<<<<<< vlas
+=======
+  .md\:leading-\[100\%\] {
+    line-height: 100%;
+  }
+
+  .md\:leading-\[140\%\] {
+    line-height: 140%;
+  }
+
+  .md\:before\:right-\[-180px\]::before {
+    content: var(--tw-content);
+    right: -180px;
+  }
+
+  .md\:before\:top-\[-11px\]::before {
+    content: var(--tw-content);
+    top: -11px;
+  }
+
+  .md\:before\:left-\[-20px\]::before {
+    content: var(--tw-content);
+    left: -20px;
+  }
+
+  .md\:before\:left-\[-11px\]::before {
+    content: var(--tw-content);
+    left: -11px;
+  }
+
+  .md\:before\:left-\[-13px\]::before {
+    content: var(--tw-content);
+    left: -13px;
+  }
+
+  .md\:before\:left-\[-10px\]::before {
+    content: var(--tw-content);
+    left: -10px;
+  }
+
+>>>>>>> main
   .md\:before\:left-\[-12px\]::before {
     content: var(--tw-content);
     left: -12px;

@@ -189,3 +189,23 @@ const projectsBody = document.getElementById('projectsBody');
 toggleProjects.addEventListener('click', function() {
     projectsBody.classList.toggle('hidden');
 });
+<<<<<<< vlas
+=======
+
+
+// intelInput
+
+const input = document.querySelector("#phone");
+window.intlTelInput(input, {
+  initialCountry: "ua",
+  strictMode: true,
+  utilsScript: "/intl-tel-input/js/utils.js?1715508103106" // just for formatting/placeholders etc
+});
+
+const inputs = document.querySelector("#phone-index");
+window.intlTelInput(inputs, {
+  initialCountry: "ua",
+  strictMode: true,
+  utilsScript: "/intl-tel-input/js/utils.js?1715508103106" // just for formatting/placeholders etc
+});
+>>>>>>> main
