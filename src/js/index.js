@@ -1,3 +1,12 @@
+var image = document.getElementsByClassName('thumbnail');
+
+new simpleParallax(image, {
+    scale: 1.2,
+    delay: .6,
+    maxTransition: 150,
+	transition: 'cubic-bezier(0,0,0,1)',
+});
+
 AOS.init({
     once: true
 });
@@ -84,6 +93,7 @@ new Swiper('.swiper.swiper-banner', {
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
+        clickable: true
     },
 
     // breakpoints: {
