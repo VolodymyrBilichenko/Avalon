@@ -20,6 +20,7 @@ function activeSwiper(className, settings) {
 activeSwiper(".swiper.team", {
     loop: true,
     slidesPerView: 2,
+    spaceBetween: 10,
     pagination: {
         el: '.swiper-pagination',
     },
