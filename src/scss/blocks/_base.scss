@@ -21,6 +21,9 @@
     .white-border-button {
         @apply text-white font-bold hover:bg-white hover:text-blue-400 transition-all rounded-[10px] border-white border-[1px] text-sm md:text-base cursor-pointer px-7 py-4 md:py-5 mx-auto block mt-12
     }
+    .blue-border-button {
+        @apply text-blue-600 py-4 px-8 text-sm font-bold border border-blue-600 rounded-[10px] block w-fit
+    }
 }
 
 .text-content blockquote,
