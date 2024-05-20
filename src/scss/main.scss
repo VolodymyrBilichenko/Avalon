@@ -95,3 +95,14 @@ body{
 .mySwiper-about .swiper-pagination {
     bottom: 70px !important;
 }
+
+
+// radio btn ABOUT page 
+
+input[type="radio"]:checked ~ label {
+    font-weight: 700;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
