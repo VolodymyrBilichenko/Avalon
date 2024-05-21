@@ -8,7 +8,7 @@
         <div class="bg-gradient-to-t from-blue-500 from-30% w-full h-52 absolute -z-10 top-0 left-0 rotate-180"></div>
 
         <div class="container">
-            <div>
+            <div class="md:flex md:justify-between md:gap-10">
                 <div>
                     <div class="banner__item__head md:flex items-center">
                         <img src="./img/index/Budha-logo.svg" class="mb-7 md:mb-0" alt="logo">
@@ -36,15 +36,42 @@
                         доме. Погрузитесь в уникальную атмосферу роскоши
                         и уюта в центре Чангу
                     </p>
-                    <a href="#" class="w-full max-w-56 md:max-w-72 px-5 py-4 block text-sm md:text-base bg-white rounded-xl text-center font-bold whitespace-nowrap text-blue-500 hover:text-white hover:bg-blue-400 my-10 transition-all md:mt-12 md:mb-52">
+                    <a href="#" class="w-full max-w-56 md:max-w-72 px-5 py-4 block text-sm md:text-base bg-white rounded-xl text-center font-bold whitespace-nowrap text-blue-500 hover:text-white hover:bg-blue-400 my-10 transition-all md:mt-12 md:mb-32">
                         Скачать презентацию
                     </a>
                 </div>
-                <div>
-                    <button type="button" class="flex items-center gap-5 text-white text-sm">
-                        <img src="../img/icons/play-video-A.svg" class="max-w-[95px]" alt="ic">
+                <div class="flex flex-col md:mt-10">
+                    <button type="button" class="flex items-center mb-10 gap-5 text-white text-sm md:text-base md:flex-col md:ml-auto">
+                        <img src="../img/icons/play-video-A.svg" class="max-w-[95px] md:max-w-[165px]" alt="ic">
                         Посмотреть видео
                     </button>
+                    <div class="flex gap-[10px] md:gap-5 md:mt-[100px]">
+                        <div class="pb-[15px] border-b border-whiteOp-300 md:pb-[30px] hidden lg:block">
+                            <h3 class="text-white text-2xl font-bold mb-[10px] md:mb-[15px] md:text-[40px]">
+                                6
+                            </h3>
+                            <p class="text-white text-sm md:text-base">
+                                вилл
+                            </p>
+                        </div>
+                        <div class="pb-[15px] border-b border-whiteOp-300 md:pb-[30px]">
+                            <h3 class="flex items-center gap-2 md:gap-[10px] text-blue-400 text-2xl font-bold mb-[10px] md:mb-[15px] md:text-[40px]">
+                                17%
+                                <img src="../img/icons/about-banner-A-ic.svg" class="max-w-[20px] md:max-w-[30px]" alt="ic">
+                            </h3>
+                            <p class="text-white text-sm md:text-base">
+                                прогнозируемый
+                            </p>
+                        </div>
+                        <div class="pb-[15px] border-b border-whiteOp-300 md:pb-[30px]">
+                            <h3 class="text-white text-2xl font-bold mb-[10px] md:mb-[15px] md:text-[40px]">
+                                32
+                            </h3>
+                            <p class="text-white text-sm md:text-base">
+                                апартамента
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -466,7 +493,7 @@
                 <div class="about-scroll w-full overflow-x-auto mt-5 pb-5 ">
                     <div class="text-white w-full flex flex-col gap-y-[15px]">
                         <!-- Headers -->
-                        <div class="font-bold w-full grid grid-cols-[repeat(7,_140px)] md:grid-cols-[repeat(7,_180px)] gap-x-[10px] md:gap-x-[20px] md:mb-[10px]">
+                        <div class="font-bold w-full grid grid-cols-[repeat(7,_140px)] md:grid-cols-[repeat(7,_minmax(180px,_183px))] gap-x-[10px] md:gap-x-[20px] md:mb-[10px]">
                             <div class="w-full"></div>
                             <div class="w-full text-xs md:text-base font-normal text-center md:text-start"><p>Стоимость <br>за сутки</p></div>
                             <div class="w-full text-xs md:text-base font-normal text-center md:text-start"><p>Заполняемость</p></div>
@@ -475,7 +502,7 @@
                             <div class="w-full text-xs md:text-base font-normal text-center md:text-start"><p>Чистый доход (минус УК, минус налоги)</p></div>
                             <div class="w-full text-xs md:text-base font-normal text-center md:text-start"><p>ROI (return on investment)</p></div>
                         </div>
-                        <div class="w-full grid grid-cols-[repeat(7,_140px)] md:grid-cols-[repeat(7,_180px)] items-center gap-x-[10px] md:gap-x-[20px]">
+                        <div class="w-full grid grid-cols-[repeat(7,_140px)] md:grid-cols-[repeat(7,_minmax(180px,_183px))] items-center gap-x-[10px] md:gap-x-[20px]">
                             <div class="w-full border-t border-b border-whiteOp-300 md:border-none py-5 md:py-0">
                                 <p class="font-bold text-white text-xs md:text-base md:text-end">
                                     Пессимистический <br>прогноз
@@ -516,7 +543,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="w-full grid grid-cols-[repeat(7,_140px)] md:grid-cols-[repeat(7,_180px)] items-center gap-x-[10px] md:gap-x-[20px]">
+                        <div class="w-full grid grid-cols-[repeat(7,_140px)] md:grid-cols-[repeat(7,_minmax(180px,_183px))] items-center gap-x-[10px] md:gap-x-[20px]">
                             <div class="w-full border-t border-b border-whiteOp-300 md:border-none py-5 md:py-0">
                                 <p class="font-bold text-white text-xs md:text-base md:text-end">
                                     Реалистичный <br>прогноз
@@ -556,7 +583,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="w-full grid grid-cols-[repeat(7,_140px)] md:grid-cols-[repeat(7,_180px)] items-center gap-x-[10px] md:gap-x-[20px]">
+                        <div class="w-full grid grid-cols-[repeat(7,_140px)] md:grid-cols-[repeat(7,_minmax(180px,_183px))] items-center gap-x-[10px] md:gap-x-[20px]">
                             <div class="w-full border-t border-b border-whiteOp-300 md:border-none py-5 md:py-0">
                                 <p class="font-bold text-white text-xs md:text-base md:text-end">
                                     Оптичистичный <br>прогноз
