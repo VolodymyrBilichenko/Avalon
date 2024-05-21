@@ -1033,20 +1033,12 @@ video {
   right: -9rem;
 }
 
-.-right-4 {
-  right: -1rem;
-}
-
 .-right-\[38px\] {
   right: -38px;
 }
 
 .-right-\[72px\] {
   right: -72px;
-}
-
-.-top-10 {
-  top: -2.5rem;
 }
 
 .-top-14 {
@@ -1099,10 +1091,6 @@ video {
 
 .bottom-\[-85px\] {
   bottom: -85px;
-}
-
-.bottom-\[154px\] {
-  bottom: 154px;
 }
 
 .bottom-\[200px\] {
@@ -1175,10 +1163,6 @@ video {
 
 .top-20 {
   top: 5rem;
-}
-
-.top-5 {
-  top: 1.25rem;
 }
 
 .top-\[-40px\] {
@@ -1397,6 +1381,10 @@ video {
   margin-left: -30px;
 }
 
+.ml-\[-40px\] {
+  margin-left: -40px;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -1483,10 +1471,6 @@ video {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.ml-\[-40px\] {
-  margin-left: -40px;
 }
 
 .line-clamp-2 {
@@ -2040,8 +2024,8 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid-cols-\[repeat\(7\2c _130px\)\] {
-  grid-template-columns: repeat(7, 130px);
+.grid-cols-\[repeat\(7\2c _140px\)\] {
+  grid-template-columns: repeat(7, 140px);
 }
 
 .flex-col {
@@ -2519,10 +2503,6 @@ video {
      object-fit: cover;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-3 {
   padding: 0.75rem;
 }
@@ -2768,10 +2748,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
 }
 
 .text-\[12px\] {
@@ -4058,10 +4034,6 @@ video {
     border-radius: 1rem;
   }
 
-  .md\:rounded-\[20px\] {
-    border-radius: 20px;
-  }
-
   .md\:border-b-0 {
     border-bottom-width: 0px;
   }
@@ -4072,6 +4044,10 @@ video {
 
   .md\:border-r {
     border-right-width: 1px;
+  }
+
+  .md\:border-none {
+    border-style: none;
   }
 
   .md\:border-whiteOp-300 {
@@ -4130,6 +4106,11 @@ video {
   .md\:px-\[15px\] {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .md\:py-2 {
@@ -4312,6 +4293,10 @@ video {
 
   .md\:leading-5 {
     line-height: 1.25rem;
+  }
+
+  .md\:leading-6 {
+    line-height: 1.5rem;
   }
 
   .md\:leading-\[100\%\] {
@@ -4607,6 +4592,10 @@ video {
     margin-bottom: 10px;
   }
 
+  .lg\:mb-\[40px\] {
+    margin-bottom: 40px;
+  }
+
   .lg\:mb-\[50px\] {
     margin-bottom: 50px;
   }
@@ -4643,16 +4632,12 @@ video {
     margin-top: -1px;
   }
 
-  .lg\:mt-\[-75px\] {
-    margin-top: -75px;
-  }
-
   .lg\:mt-\[-40px\] {
     margin-top: -40px;
   }
 
-  .lg\:mb-\[40px\] {
-    margin-bottom: 40px;
+  .lg\:mt-\[-75px\] {
+    margin-top: -75px;
   }
 
   .lg\:block {

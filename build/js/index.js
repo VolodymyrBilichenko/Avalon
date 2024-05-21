@@ -132,8 +132,9 @@ activeSwiper(".mySwiper-about", {
     },
     pagination: {
         el: ".swiper-pagination",
+        clickable: true
     },
-    mousewheel: true,
+    // mousewheel: true,
     keyboard: true,
 })
 

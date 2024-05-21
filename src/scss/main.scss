@@ -106,3 +106,16 @@ input[type="radio"]:checked ~ label {
 }
 
 
+// scrollbar
+
+.about-scroll {
+    &::-webkit-scrollbar {
+        width: 2px;
+        height: 3px;
+        background: rgba(#355B7B, .1);
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #6A89A4;
+    }
+}
+
