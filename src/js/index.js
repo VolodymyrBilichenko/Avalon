@@ -242,3 +242,17 @@ document.querySelectorAll('.modal__close').forEach(item => {
         item.closest(".modal").classList.add("invisible")
     }
 })
+
+if(document.querySelector("#inline-picker")) {
+    const today = new Date();
+    const tomorrow = new Date(today);
+    tomorrow.setDate(today.getDate() + 1);
+
+    new AirDatepicker('#inline-picker', {
+        inline: true,
+        multipleDates: true,
+        minDate: tomorrow,
+        nextHtml: `<svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.25039 0.388199C0.762891 0.875699 0.762891 1.6632 1.25039 2.1507L6.10039 7.0007L1.25039 11.8507C0.762891 12.3382 0.762891 13.1257 1.25039 13.6132C1.73789 14.1007 2.52539 14.1007 3.01289 13.6132L8.75039 7.8757C9.23789 7.3882 9.23789 6.6007 8.75039 6.1132L3.01289 0.375699C2.53789 -0.0993012 1.73789 -0.0993012 1.25039 0.388199Z" fill="white"/></svg>`,
+        prevHtml: `<svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.74961 0.388199C9.23711 0.875699 9.23711 1.6632 8.74961 2.1507L3.89961 7.0007L8.74961 11.8507C9.23711 12.3382 9.23711 13.1257 8.74961 13.6132C8.26211 14.1007 7.47461 14.1007 6.98711 13.6132L1.24961 7.8757C0.76211 7.3882 0.76211 6.6007 1.24961 6.1132L6.98711 0.375699C7.46211 -0.0993012 8.26211 -0.0993012 8.74961 0.388199Z" fill="white" style="fill:white;fill-opacity:1;"/></svg>`
+    })
+}
