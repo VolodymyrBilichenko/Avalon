@@ -2436,6 +2436,10 @@ video {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'\.\/\.\.\/img\/about\/about-banner\.jpg\'\)\] {
+  background-image: url('./../img/about/about-banner.jpg');
+}
+
 .from-blue-500 {
   --tw-gradient-from: #0A4A7F var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(10 74 127 / 0) var(--tw-gradient-to-position);
