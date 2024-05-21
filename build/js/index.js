@@ -222,6 +222,15 @@ if (inputs) {
     });
 }
 
+const inputt = document.querySelector("#phone-modal");
+if (inputs) {
+    window.intlTelInput(inputt, {
+        initialCountry: "ua",
+        strictMode: true,
+        utilsScript: "/intl-tel-input/js/utils.js?1715508103106" // just for formatting/placeholders etc
+    });
+}
+
 
 document.querySelectorAll('.open-modal').forEach(item => {
     item.onclick = () => {
