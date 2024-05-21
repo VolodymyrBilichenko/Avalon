@@ -1424,6 +1424,10 @@ video {
   margin-top: auto;
 }
 
+.ml-\[-40px\] {
+  margin-left: -40px;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1705,6 +1709,10 @@ video {
   width: 100%;
 }
 
+.w-\[calc\(100\%_\+_80px\)\] {
+  width: calc(100% + 80px);
+}
+
 .min-w-11 {
   min-width: 2.75rem;
 }
@@ -1873,6 +1881,14 @@ video {
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
+}
+
+.max-w-\[436px\] {
+  max-width: 436px;
+}
+
+.max-w-none {
+  max-width: none;
 }
 
 .border-collapse {
@@ -2272,6 +2288,10 @@ video {
   background-color: rgb(3 21 35 / 0.9);
 }
 
+.bg-\[\#0A4A7F\]\/90 {
+  background-color: rgb(10 74 127 / 0.9);
+}
+
 .bg-\[\#111111\] {
   --tw-bg-opacity: 1;
   background-color: rgb(17 17 17 / var(--tw-bg-opacity));
@@ -2324,10 +2344,6 @@ video {
 
 .bg-whiteOp-200 {
   background-color: #FFFFFF1A;
-}
-
-.bg-\[\#0A4A7F\]\/90 {
-  background-color: rgb(10 74 127 / 0.9);
 }
 
 .bg-\[url\(\'\.\/\.\.\/img\/about\/apartment-bgd\.jpg\'\)\] {
@@ -2565,11 +2581,6 @@ video {
 .py-\[60px\] {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.py-\[18px\] {
-  padding-top: 18px;
-  padding-bottom: 18px;
 }
 
 .pb-10 {
@@ -2846,10 +2857,6 @@ video {
 
 .text-whiteOp-300 {
   color: #FFFFFF33;
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .underline {
@@ -3985,6 +3992,10 @@ video {
     border-radius: 1rem;
   }
 
+  .md\:rounded-\[20px\] {
+    border-radius: 20px;
+  }
+
   .md\:border-b-0 {
     border-bottom-width: 0px;
   }
@@ -5059,6 +5070,14 @@ video {
     line-height: 1.25rem;
   }
 
+  .lg\:leading-\[100\%\] {
+    line-height: 100%;
+  }
+
+  .lg\:leading-\[120\%\] {
+    line-height: 120%;
+  }
+
   .lg\:no-underline {
     text-decoration-line: none;
   }
@@ -5083,9 +5102,24 @@ video {
     height: 400px;
   }
 
+  .lg\:before\:h-\[10px\]::before {
+    content: var(--tw-content);
+    height: 10px;
+  }
+
   .lg\:before\:w-\[1px\]::before {
     content: var(--tw-content);
     width: 1px;
+  }
+
+  .lg\:before\:w-\[10px\]::before {
+    content: var(--tw-content);
+    width: 10px;
+  }
+
+  .lg\:before\:rounded::before {
+    content: var(--tw-content);
+    border-radius: 0.25rem;
   }
 
   .lg\:after\:hidden::after {
