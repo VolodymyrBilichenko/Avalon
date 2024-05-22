@@ -1509,6 +1509,10 @@ video {
   margin-top: 30px;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -3956,6 +3960,10 @@ video {
     margin-left: -20px;
   }
 
+  .md\:-ml-10 {
+    margin-left: -2.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -4846,6 +4854,18 @@ video {
     top: auto;
   }
 
+  .lg\:-right-6 {
+    right: -1.5rem;
+  }
+
+  .lg\:-right-7 {
+    right: -1.75rem;
+  }
+
+  .lg\:-right-10 {
+    right: -2.5rem;
+  }
+
   .lg\:order-1 {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -4961,6 +4981,10 @@ video {
 
   .lg\:mt-\[-75px\] {
     margin-top: -75px;
+  }
+
+  .lg\:-mt-10 {
+    margin-top: -2.5rem;
   }
 
   .lg\:block {
